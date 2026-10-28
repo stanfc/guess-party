@@ -5,7 +5,7 @@ import { shuffle, screenTilt, TiltGate, parseDuration } from './game.js';
 const app = document.querySelector('#app');
 let durationMode = 'preset', customDuration = '150';
 let searchQuery = '', activeCategory = '全部題庫';
-let selected = decks.find(deck => deck.id === 'daily'), duration = 60, phase = 'home', queue = [], answers = [], deadline = 0;
+let selected = decks.find(deck => deck.id === 'daily'), duration = 180, phase = 'home', queue = [], answers = [], deadline = 0;
 let sessionId = 0;
 let ticker, countdownTimer, feedbackTimer, index = 0, busy = false, gate = new TiltGate(), motionEnabled = false, wakeLock, audio;
 const $ = selector => app.querySelector(selector);
