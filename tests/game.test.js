@@ -29,15 +29,15 @@ test('catalog supports name, description, combined category filters and reset', 
   assert.ok(decks.every(d => categories.includes(d.category)));
 });
 
-test('30-degree threshold accepts sustained 31-degree flips in either landscape direction', () => {
+test('40-degree threshold accepts sustained 41-degree flips in either landscape direction', () => {
   for (const direction of [-1, 1]) {
     for (const [beta, action] of [[0, 'skip'], [180, 'correct']]) {
       const gate = new TiltGate();
       gate.update(screenTilt(beta, direction * 90), 0);
-      const belowThreshold = screenTilt(beta, direction * 61);
+      const belowThreshold = screenTilt(beta, direction * 51);
       assert.equal(gate.update(belowThreshold, 10), null);
       assert.equal(gate.update(belowThreshold, 300), null);
-      const aboveThreshold = screenTilt(beta, direction * 59);
+      const aboveThreshold = screenTilt(beta, direction * 49);
       assert.equal(gate.update(aboveThreshold, 400), null);
       assert.equal(gate.update(aboveThreshold, 470), null);
       assert.equal(gate.update(aboveThreshold, 480), action);

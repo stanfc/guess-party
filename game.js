@@ -12,8 +12,8 @@ export function screenTilt(beta, gamma) {
   if (!Number.isFinite(beta) || !Number.isFinite(gamma)) return null;
   return Math.cos(beta * Math.PI / 180) * Math.cos(gamma * Math.PI / 180);
 }
-// Vertical component equals sin(angle from upright): 0.5 means a 30° flip.
-const FLIP_THRESHOLD = 0.5;
+// Vertical component equals sin(angle from upright).
+const FLIP_THRESHOLD = Math.sin(40 * Math.PI / 180);
 export class TiltGate {
   constructor() { this.ready = false; this.candidate = null; this.since = 0; }
   update(value, now) {
