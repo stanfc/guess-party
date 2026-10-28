@@ -1,0 +1,38 @@
+# 台灣用語與題目編輯規範
+
+介面、題庫名稱、說明與題目均使用台灣繁體中文。新增或修改題目時，先檢查實際用詞與專名譯法，避免只做繁簡字形轉換。
+
+- 日常用語優先採台灣常見說法，例如機車、羽球、智慧喇叭、3D 列印。
+- 專業名詞優先參考國家教育研究院、台灣大學教材、研究機構與主管機關。保留概念原意，不把不同概念當成同義詞替換。
+- 作品與角色使用台灣正式發行或授權名稱；歌名保留原作名稱。台灣正式名稱中已有的共用詞，依正式名稱保留。例如東映台灣授權商店使用「數碼寶貝」。
+- 生物名稱優先參考台灣博物館、臺灣生命大百科與研究機構。
+- 分類使用「高手挑戰」，說明採自然的台灣口語。
+- 每庫至少 150 題；改名後再次檢查同庫是否重複，不以不同譯名增加同一題的數量。
+
+## 採用詞彙範例
+
+| 領域 | 採用詞彙 |
+| --- | --- |
+| 日常、動植物 | 機車、羽球、蝦蛄、科摩多巨蜥、巨花魔芋、伶盜龍 |
+| 科技 | 智慧喇叭、繪圖處理器、無反光鏡相機、全像投影、開放原始碼軟體、3D列印 |
+| 資工 | 行程、執行緒、內容切換、號誌、二元索引樹、分支界限法、互斥集合、兩階段認可 |
+| 電機 | 矽控整流器、帶拒濾波器、直流截波器、場效應電晶體 |
+| 生物、醫學 | 訊息RNA、轉移RNA、溶小體、離層酸、全血球計數檢查、三酸甘油脂 |
+| 作品 | 影子籃球員、金法尤物、愛是您愛是我 |
+
+## 核對參考
+
+- [國家教育研究院：分支定界法／分支界限法](https://pedia.cloud.edu.tw/Entry/Detail?title=分支定界法)
+- [中央研究院資訊所：本文無關文法](https://www.iis.sinica.edu.tw/file/entry/10382/FULLTEXT/zh/tr88007.pdf)
+- [Microsoft 繁體中文文件：內容切換](https://learn.microsoft.com/zh-tw/windows/win32/procthread/context-switches)
+- [Microsoft 繁體中文文件：兩階段認可](https://learn.microsoft.com/zh-tw/host-integration-server/core/glossary2)
+- [清華大學開放式課程：帶拒濾波器](https://ocw.nthu.edu.tw/chapter/133/1599?lang=cn)
+- [國立勤益科技大學：直流截波器](https://eeweb.ncut.edu.tw/content.php?key=759D2MO6W5)
+- [臺灣人體生物資料庫：RNA](https://www.twbiobank.org.tw/article.php?id=45)
+- [中央研究院植物暨微生物學研究所：離層酸](https://ipmb.sinica.edu.tw/ch/activities/highlights/382)
+- [臺灣生命大百科：巨蜥屬](https://taieol.tw/pages/31725/taxonomy)
+- [國立自然科學博物館：伶盜龍（迅掠龍）](https://web3.nmns.edu.tw/Exhibits/113/2024dinosaur/unit-4.html)
+- [OPENTIX：金法尤物](https://www.opentix.life/event/2094258931067273217)
+- [OPENTIX：愛是您・愛是我](https://www.opentix.life/event/1985592371673743361)
+- [國家圖書館送存書目：影子籃球員](https://nclfile.ncl.edu.tw/files/202410/98b7b652-03a9-45c8-a250-39590742faa6.pdf)
+- [東映台灣授權商店：數碼寶貝](https://www.toeianim-store.com.tw/v2/official/SalePageCategory/497980)

@@ -22,7 +22,7 @@ test('catalog supports name, description, combined category filters and reset', 
   assert.deepEqual(filterDecks('  法律  ').map(d => d.id), ['law']);
   assert.deepEqual(filterDecks('神祇').map(d => d.id), ['fantasy']);
   assert.equal(filterDecks('法律', '輕鬆入門').length, 0);
-  assert.equal(filterDecks('法律', '硬核挑戰')[0].id, 'law');
+  assert.equal(filterDecks('法律', '高手挑戰')[0].id, 'law');
   assert.equal(filterDecks('不存在的題庫').length, 0);
   assert.equal(filterDecks('<img src=x onerror=alert(1)>').length, 0);
   assert.ok(categories.includes('全部題庫'));
