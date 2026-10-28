@@ -1,16 +1,19 @@
 import { decks } from './decks.js';
+import { connectInstallButton } from './pwa.js';
 import { categories, filterDecks } from './catalog.js';
 import { shuffle, screenTilt, TiltGate, parseDuration } from './game.js';
 const app = document.querySelector('#app');
 let durationMode = 'preset', customDuration = '150';
 let searchQuery = '', activeCategory = '全部題庫';
 let selected = decks.find(deck => deck.id === 'daily'), duration = 60, phase = 'home', queue = [], answers = [], deadline = 0;
+let sessionId = 0;
 let ticker, countdownTimer, feedbackTimer, index = 0, busy = false, gate = new TiltGate(), motionEnabled = false, wakeLock, audio;
 const $ = selector => app.querySelector(selector);
 function bind(selector, callback) { $(selector)?.addEventListener('click', callback); }
 function home() {
   cleanup(); phase = 'home';
-  app.innerHTML = `<header><div class="brand"><span class="brand-icon">?</span>猜猜俱樂部</div><span class="tag">GOOD FRIENDS. GREAT GUESSES.</span></header><main class="home"><div class="hero"><div><div class="eyebrow"><span class="dot"></span>聚在一起，就開一局</div><h1>手機舉高，<br>把<span>默契玩出來。</span></h1><p class="intro">你來猜，朋友來提示。<br>一支手機就能開始，下一個派對的快樂擔當。</p></div><div class="art" aria-hidden="true"><div class="orbit"></div><span class="spark">✦</span><div class="phone-art"><div class="phone-screen">珍珠奶茶</div></div><div class="bubble one">這個你每天都喝！</div><div class="bubble two">猜對了！ ↘</div></div></div><div class="steps"><span class="step"><b>1</b>選個題庫</span><span class="step"><b>2</b>手機橫放額頭</span><span class="step"><b>3</b>向下猜對・向上跳過</span></div><div class="section-head"><h2>今天想挑戰什麼？</h2><span class="muted">${decks.length} 個題庫 · ${decks.reduce((n,d)=>n+d.words.length,0)} 道題目</span></div><div class="catalog-tools"><label class="search-box"><span aria-hidden="true">⌕</span><input id="deck-search" type="search" placeholder="搜尋題庫，例如：法律、恐龍、金曲" aria-label="搜尋題庫" autocomplete="off"><button id="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></label><div class="categories" role="group" aria-label="題庫分類">${categories.map(category => `<button data-category="${category}" aria-pressed="${category === activeCategory}" class="${category === activeCategory ? 'active' : ''}">${category}</button>`).join('')}</div></div><p class="catalog-status" id="catalog-status" role="status"></p><div class="decks" id="deck-grid"></div><div class="catalog-empty" id="catalog-empty" hidden><p>沒有符合的題庫，換個關鍵字試試。</p><button class="secondary" id="reset-filters">顯示全部題庫</button></div><div class="settings"><div class="selection-summary"><span class="muted">本回合題庫</span><strong id="selected-deck-name">${selected.name}</strong></div><div class="duration"><span>每回合時間</span><div class="segments" role="group" aria-label="每回合時間">${[60,90,120,180].map(n=>`<button data-duration="${n}" class="${durationMode==='preset'&&duration===n?'active':''}" aria-pressed="${durationMode==='preset'&&duration===n}">${n} 秒</button>`).join('')}<button id="custom-mode" class="${durationMode==='custom'?'active':''}" aria-pressed="${durationMode==='custom'}">自訂</button></div><div class="custom-duration" ${durationMode==='custom'?'':'hidden'}><label for="custom-seconds">自訂秒數</label><input id="custom-seconds" type="number" inputmode="numeric" min="1" max="3600" step="1" aria-describedby="duration-error"><span>秒（1～3600）</span><p id="duration-error" role="status"></p></div></div><button class="primary" id="prepare">就位，準備開猜 <span>↗</span></button></div><footer class="footer"><span>MADE FOR THE MOMENTS TOGETHER</span><span>不用下載，不用登入。</span></footer></main>`;
+  app.innerHTML = `<header><div class="brand"><span class="brand-icon">?</span>猜猜俱樂部</div><div class="header-actions"><span class="tag">GOOD FRIENDS. GREAT GUESSES.</span><button class="secondary" id="install-app" hidden>安裝到桌面 ↗</button></div></header><main class="home"><div class="hero"><div><div class="eyebrow"><span class="dot"></span>聚在一起，就開一局</div><h1>手機舉高，<br>把<span>默契玩出來。</span></h1><p class="intro">你來猜，朋友來提示。<br>一支手機就能開始，下一個派對的快樂擔當。</p></div><div class="art" aria-hidden="true"><div class="orbit"></div><span class="spark">✦</span><div class="phone-art"><div class="phone-screen">珍珠奶茶</div></div><div class="bubble one">這個你每天都喝！</div><div class="bubble two">猜對了！ ↘</div></div></div><div class="steps"><span class="step"><b>1</b>選個題庫</span><span class="step"><b>2</b>手機橫放額頭</span><span class="step"><b>3</b>向下猜對・向上跳過</span></div><div class="section-head"><h2>今天想挑戰什麼？</h2><span class="muted">${decks.length} 個題庫 · ${decks.reduce((n,d)=>n+d.words.length,0)} 道題目</span></div><div class="catalog-tools"><label class="search-box"><span aria-hidden="true">⌕</span><input id="deck-search" type="search" placeholder="搜尋題庫，例如：法律、恐龍、金曲" aria-label="搜尋題庫" autocomplete="off"><button id="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></label><div class="categories" role="group" aria-label="題庫分類">${categories.map(category => `<button data-category="${category}" aria-pressed="${category === activeCategory}" class="${category === activeCategory ? 'active' : ''}">${category}</button>`).join('')}</div></div><p class="catalog-status" id="catalog-status" role="status"></p><div class="decks" id="deck-grid"></div><div class="catalog-empty" id="catalog-empty" hidden><p>沒有符合的題庫，換個關鍵字試試。</p><button class="secondary" id="reset-filters">顯示全部題庫</button></div><div class="settings"><div class="selection-summary"><span class="muted">本回合題庫</span><strong id="selected-deck-name">${selected.name}</strong></div><div class="duration"><span>每回合時間</span><div class="segments" role="group" aria-label="每回合時間">${[60,90,120,180].map(n=>`<button data-duration="${n}" class="${durationMode==='preset'&&duration===n?'active':''}" aria-pressed="${durationMode==='preset'&&duration===n}">${n} 秒</button>`).join('')}<button id="custom-mode" class="${durationMode==='custom'?'active':''}" aria-pressed="${durationMode==='custom'}">自訂</button></div><div class="custom-duration" ${durationMode==='custom'?'':'hidden'}><label for="custom-seconds">自訂秒數</label><input id="custom-seconds" type="number" inputmode="numeric" min="1" max="3600" step="1" aria-describedby="duration-error"><span>秒（1～3600）</span><p id="duration-error" role="status"></p></div></div><button class="primary" id="prepare">就位，準備開猜 <span>↗</span></button></div><footer class="footer"><span>MADE FOR THE MOMENTS TOGETHER</span><span>不用下載，不用登入。</span></footer></main>`;
+  connectInstallButton();
   $('#deck-search').value = searchQuery;
   $('#deck-search').addEventListener('input', event => { searchQuery = event.target.value; renderCatalog(); });
   bind('#clear-search', () => { searchQuery = ''; $('#deck-search').value = ''; renderCatalog(); $('#deck-search').focus(); });
@@ -61,23 +64,48 @@ function prepare() {
   bind('#back', home); bind('#start', start);
 }
 async function start() {
+  if (phase !== 'prepare') return;
+  const session = ++sessionId;
+  phase = 'starting';
   $('#start').disabled = true;
-  motionEnabled = false;
+  $('#sensor-status').textContent = '正在準備；若有權限提示，請選擇是否允許動作感測。';
+  let permitted = false;
   try {
     if (typeof DeviceOrientationEvent !== 'undefined') {
-      motionEnabled = typeof DeviceOrientationEvent.requestPermission === 'function' ? await DeviceOrientationEvent.requestPermission() === 'granted' : true;
+      permitted = typeof DeviceOrientationEvent.requestPermission === 'function'
+        ? await DeviceOrientationEvent.requestPermission() === 'granted' : true;
     }
-  } catch { motionEnabled = false; }
-  if (phase !== 'prepare') return;
-  try { audio = new (window.AudioContext || window.webkitAudioContext)(); await audio.resume(); } catch { audio = null; }
-  try { await document.documentElement.requestFullscreen?.(); } catch {}
-  try { await screen.orientation?.lock?.('landscape'); } catch {}
-  try { wakeLock = await navigator.wakeLock?.request('screen'); } catch {}
-  if (phase !== 'prepare') { cleanup(); return; }
+  } catch {}
+  if (session !== sessionId || phase !== 'starting') return;
+  motionEnabled = permitted;
   phase = 'countdown'; queue = shuffle(selected.words); answers = []; index = 0; busy = false; gate = new TiltGate();
   let count = 3;
   const draw = () => {app.innerHTML = `<main class="center-page"><div class="eyebrow">手機橫放額頭，螢幕朝外</div><div class="countdown" role="status">${count}</div><p class="notice">${motionEnabled?'翻轉手機，或點擊按鈕作答':'使用螢幕按鈕作答（動作感測未開啟）'}</p></main>`;beep(500,.08);};
   draw(); countdownTimer = setInterval(()=>{count--;if(count===0){clearInterval(countdownTimer);begin();}else draw();},1000);
+  // Browser conveniences are optional. Never await them before starting the timer.
+  enableRoundEnvironment(session);
+}
+function enableRoundEnvironment(session) {
+  const current = () => session === sessionId && (phase === 'countdown' || phase === 'play');
+  try {
+    audio ||= new (window.AudioContext || window.webkitAudioContext)();
+    Promise.resolve(audio.resume()).catch(() => {});
+  } catch { audio = null; }
+  try {
+    Promise.resolve(document.documentElement.requestFullscreen?.()).then(() => {
+      if (current()) {
+        try { Promise.resolve(screen.orientation?.lock?.('landscape')).catch(() => {}); } catch {}
+      } else if (document.fullscreenElement && phase !== 'countdown' && phase !== 'play') {
+        try { Promise.resolve(document.exitFullscreen?.()).catch(() => {}); } catch {}
+      }
+    }).catch(() => {});
+  } catch {}
+  try {
+    Promise.resolve(navigator.wakeLock?.request('screen')).then(lock => {
+      if (current()) wakeLock = lock;
+      else { try { Promise.resolve(lock?.release()).catch(() => {}); } catch {} }
+    }).catch(() => {});
+  } catch {}
 }
 function begin() {
   phase = 'play'; deadline = performance.now() + duration * 1000;
@@ -122,7 +150,17 @@ function finish(reason) {
   bind('#home',home);bind('#again',prepare);
 }
 function beep(frequency,length){if(!audio)return;try{const oscillator=audio.createOscillator(),gain=audio.createGain();oscillator.connect(gain);gain.connect(audio.destination);oscillator.frequency.value=frequency;gain.gain.setValueAtTime(.06,audio.currentTime);gain.gain.exponentialRampToValueAtTime(.001,audio.currentTime+length);oscillator.start();oscillator.stop(audio.currentTime+length);}catch{}}
-function cleanup(){clearInterval(ticker);clearInterval(countdownTimer);clearTimeout(feedbackTimer);window.removeEventListener('deviceorientation',orientation);wakeLock?.release().catch(()=>{});wakeLock=null;try{screen.orientation?.unlock?.();}catch{}if(document.fullscreenElement)document.exitFullscreen?.().catch(()=>{});}
+function cleanup() {
+  sessionId++;
+  clearInterval(ticker); clearInterval(countdownTimer); clearTimeout(feedbackTimer);
+  window.removeEventListener('deviceorientation', orientation);
+  try { Promise.resolve(wakeLock?.release()).catch(() => {}); } catch {}
+  wakeLock = null;
+  try { screen.orientation?.unlock?.(); } catch {}
+  if (document.fullscreenElement) {
+    try { Promise.resolve(document.exitFullscreen?.()).catch(() => {}); } catch {}
+  }
+}
 window.addEventListener('keydown',e=>{if(phase!=='play'||e.repeat||$('.end-confirm'))return;if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();answer(e.key==='ArrowDown'?'correct':'skip');}});
 document.addEventListener('visibilitychange',()=>{gate=new TiltGate();if(!document.hidden&&phase==='play')tick();});
 home();

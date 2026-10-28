@@ -63,3 +63,11 @@ Node 內建測試驗證題庫至少 150 題且無重複、必要主題、分類�
 - [國立自然科學博物館：恐龍時代](https://www.nmns.edu.tw/ch/exhibitions/galleries/life-science-hall/the-age-of-dinosaurs/eggstealer/)
 - [全國法規資料庫：民事訴訟法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0010001)
 - [法務部：同時履行抗辯與第三人利益契約](https://www.tnc.moj.gov.tw/media/129006/3121517242382.pdf)
+
+## 安裝與離線
+
+已提供 Web App Manifest、192／512px PNG 圖示、遮罩圖示與 Apple touch icon。在一般模式的 Chrome 中開啟 HTTPS 網站後，可使用瀏覽器選單中的安裝功能；符合瀏覽器的安裝提示條件時，頁首也會出現「安裝到桌面」。無痕模式不提供 PWA 安裝。
+
+首次連線載入並完成 Service Worker 快取後，18 個題庫與遊戲可離線使用；字型無法連線時使用系統字體。每次 GitHub Pages 部署會自動以 commit SHA 更新快取版本；新版下載完成後，關閉所有遊戲分頁／視窗再重新開啟即可套用，避免一局中途切換版本。Service Worker 僅處理本專案範圍內的遊戲檔案。
+
+開始回合時，只有需使用者回應的動作感測權限會先等待；全螢幕、橫向鎖定、音訊啟用與螢幕常亮都不阻擋倒數。已用 Chrome 模擬各 API 永久 pending、拋錯與延遲權限回應，並驗證遊戲仍能開始、作答及結束；也通過 Chrome DevTools 的安裝資格檢查與離線回合測試。

@@ -26,7 +26,9 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir dist
-          cp index.html style.css app.js game.js decks.js catalog.js dist/
+          cp index.html style.css app.js game.js decks.js catalog.js pwa.js sw.js manifest.webmanifest dist/
+          cp -R icons dist/
+          sed -i "s/__BUILD_ID__/${GITHUB_SHA}/g" dist/sw.js
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
