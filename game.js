@@ -23,8 +23,15 @@ export class TiltGate {
     const action = value >= FLIP_THRESHOLD ? 'skip' : value <= -FLIP_THRESHOLD ? 'correct' : null;
     if (!action) { this.candidate = null; return null; }
     if (action !== this.candidate) { this.candidate = action; this.since = now; return null; }
-    if (now - this.since < 160) return null;
+    if (now - this.since < 80) return null;
     this.ready = false; this.candidate = null;
     return action;
   }
+}
+
+export function parseDuration(value) {
+  const text = String(value).trim();
+  if (!/^\d+$/.test(text)) return null;
+  const seconds = Number(text);
+  return Number.isInteger(seconds) && seconds >= 1 && seconds <= 3600 ? seconds : null;
 }

@@ -1,7 +1,8 @@
 import { decks } from './decks.js';
 import { categories, filterDecks } from './catalog.js';
-import { shuffle, screenTilt, TiltGate } from './game.js';
+import { shuffle, screenTilt, TiltGate, parseDuration } from './game.js';
 const app = document.querySelector('#app');
+let durationMode = 'preset', customDuration = '150';
 let searchQuery = '', activeCategory = '全部題庫';
 let selected = decks.find(deck => deck.id === 'daily'), duration = 60, phase = 'home', queue = [], answers = [], deadline = 0;
 let ticker, countdownTimer, feedbackTimer, index = 0, busy = false, gate = new TiltGate(), motionEnabled = false, wakeLock, audio;
@@ -9,7 +10,7 @@ const $ = selector => app.querySelector(selector);
 function bind(selector, callback) { $(selector)?.addEventListener('click', callback); }
 function home() {
   cleanup(); phase = 'home';
-  app.innerHTML = `<header><div class="brand"><span class="brand-icon">?</span>猜猜俱樂部</div><span class="tag">GOOD FRIENDS. GREAT GUESSES.</span></header><main class="home"><div class="hero"><div><div class="eyebrow"><span class="dot"></span>聚在一起，就開一局</div><h1>手機舉高，<br>把<span>默契玩出來。</span></h1><p class="intro">你來猜，朋友來提示。<br>一支手機就能開始，下一個派對的快樂擔當。</p></div><div class="art" aria-hidden="true"><div class="orbit"></div><span class="spark">✦</span><div class="phone-art"><div class="phone-screen">珍珠奶茶</div></div><div class="bubble one">這個你每天都喝！</div><div class="bubble two">猜對了！ ↘</div></div></div><div class="steps"><span class="step"><b>1</b>選個題庫</span><span class="step"><b>2</b>手機橫放額頭</span><span class="step"><b>3</b>向下猜對・向上跳過</span></div><div class="section-head"><h2>今天想挑戰什麼？</h2><span class="muted">${decks.length} 個題庫 · ${decks.reduce((n,d)=>n+d.words.length,0)} 道題目</span></div><div class="catalog-tools"><label class="search-box"><span aria-hidden="true">⌕</span><input id="deck-search" type="search" placeholder="搜尋題庫，例如：法律、恐龍、金曲" aria-label="搜尋題庫" autocomplete="off"><button id="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></label><div class="categories" role="group" aria-label="題庫分類">${categories.map(category => `<button data-category="${category}" aria-pressed="${category === activeCategory}" class="${category === activeCategory ? 'active' : ''}">${category}</button>`).join('')}</div></div><p class="catalog-status" id="catalog-status" role="status"></p><div class="decks" id="deck-grid"></div><div class="catalog-empty" id="catalog-empty" hidden><p>沒有符合的題庫，換個關鍵字試試。</p><button class="secondary" id="reset-filters">顯示全部題庫</button></div><div class="settings"><div class="selection-summary"><span class="muted">本回合題庫</span><strong id="selected-deck-name">${selected.name}</strong></div><div class="duration"><span>每回合時間</span><div class="segments" role="group" aria-label="每回合時間">${[60,90,120].map(n=>`<button data-duration="${n}" class="${duration===n?'active':''}" aria-pressed="${duration===n}">${n} 秒</button>`).join('')}</div></div><button class="primary" id="prepare">就位，準備開猜 <span>↗</span></button></div><footer class="footer"><span>MADE FOR THE MOMENTS TOGETHER</span><span>不用下載，不用登入。</span></footer></main>`;
+  app.innerHTML = `<header><div class="brand"><span class="brand-icon">?</span>猜猜俱樂部</div><span class="tag">GOOD FRIENDS. GREAT GUESSES.</span></header><main class="home"><div class="hero"><div><div class="eyebrow"><span class="dot"></span>聚在一起，就開一局</div><h1>手機舉高，<br>把<span>默契玩出來。</span></h1><p class="intro">你來猜，朋友來提示。<br>一支手機就能開始，下一個派對的快樂擔當。</p></div><div class="art" aria-hidden="true"><div class="orbit"></div><span class="spark">✦</span><div class="phone-art"><div class="phone-screen">珍珠奶茶</div></div><div class="bubble one">這個你每天都喝！</div><div class="bubble two">猜對了！ ↘</div></div></div><div class="steps"><span class="step"><b>1</b>選個題庫</span><span class="step"><b>2</b>手機橫放額頭</span><span class="step"><b>3</b>向下猜對・向上跳過</span></div><div class="section-head"><h2>今天想挑戰什麼？</h2><span class="muted">${decks.length} 個題庫 · ${decks.reduce((n,d)=>n+d.words.length,0)} 道題目</span></div><div class="catalog-tools"><label class="search-box"><span aria-hidden="true">⌕</span><input id="deck-search" type="search" placeholder="搜尋題庫，例如：法律、恐龍、金曲" aria-label="搜尋題庫" autocomplete="off"><button id="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></label><div class="categories" role="group" aria-label="題庫分類">${categories.map(category => `<button data-category="${category}" aria-pressed="${category === activeCategory}" class="${category === activeCategory ? 'active' : ''}">${category}</button>`).join('')}</div></div><p class="catalog-status" id="catalog-status" role="status"></p><div class="decks" id="deck-grid"></div><div class="catalog-empty" id="catalog-empty" hidden><p>沒有符合的題庫，換個關鍵字試試。</p><button class="secondary" id="reset-filters">顯示全部題庫</button></div><div class="settings"><div class="selection-summary"><span class="muted">本回合題庫</span><strong id="selected-deck-name">${selected.name}</strong></div><div class="duration"><span>每回合時間</span><div class="segments" role="group" aria-label="每回合時間">${[60,90,120,180].map(n=>`<button data-duration="${n}" class="${durationMode==='preset'&&duration===n?'active':''}" aria-pressed="${durationMode==='preset'&&duration===n}">${n} 秒</button>`).join('')}<button id="custom-mode" class="${durationMode==='custom'?'active':''}" aria-pressed="${durationMode==='custom'}">自訂</button></div><div class="custom-duration" ${durationMode==='custom'?'':'hidden'}><label for="custom-seconds">自訂秒數</label><input id="custom-seconds" type="number" inputmode="numeric" min="1" max="3600" step="1" aria-describedby="duration-error"><span>秒（1～3600）</span><p id="duration-error" role="status"></p></div></div><button class="primary" id="prepare">就位，準備開猜 <span>↗</span></button></div><footer class="footer"><span>MADE FOR THE MOMENTS TOGETHER</span><span>不用下載，不用登入。</span></footer></main>`;
   $('#deck-search').value = searchQuery;
   $('#deck-search').addEventListener('input', event => { searchQuery = event.target.value; renderCatalog(); });
   bind('#clear-search', () => { searchQuery = ''; $('#deck-search').value = ''; renderCatalog(); $('#deck-search').focus(); });
@@ -31,8 +32,20 @@ function home() {
     $(`[data-deck="${selected.id}"]`)?.focus({ preventScroll: true });
   });
   renderCatalog();
-  app.querySelectorAll('[data-duration]').forEach(el=>el.onclick=()=>{duration=Number(el.dataset.duration);home();});
+  app.querySelectorAll('[data-duration]').forEach(el=>el.onclick=()=>{durationMode='preset';duration=Number(el.dataset.duration);home();});
+  bind('#custom-mode', () => { durationMode = 'custom'; home(); $('#custom-seconds').focus(); });
+  $('#custom-seconds').value = customDuration;
+  $('#custom-seconds').addEventListener('input', event => { customDuration = event.target.value; updateDuration(); });
+  updateDuration();
   bind('#prepare', prepare);
+}
+function updateDuration() {
+  const value = durationMode === 'custom' ? parseDuration(customDuration) : duration;
+  const invalid = value === null;
+  if (!invalid) duration = value;
+  $('#prepare').disabled = invalid;
+  $('#custom-seconds').setAttribute('aria-invalid', String(invalid));
+  $('#duration-error').textContent = invalid ? '請輸入 1～3600 的整數秒數。' : '';
 }
 function renderCatalog() {
   const visible = filterDecks(searchQuery, activeCategory);
@@ -42,6 +55,7 @@ function renderCatalog() {
   $('#clear-search').hidden = !searchQuery;
 }
 function prepare() {
+  if (durationMode === 'custom' && parseDuration(customDuration) === null) return;
   phase = 'prepare';
   app.innerHTML = `<main class="center-page"><div class="eyebrow">${selected.name} · ${duration} 秒</div><h1>讓朋友看見題目！</h1><p class="instructions">把手機橫拿，螢幕朝外放在額頭前。<br>朋友可以說明、比動作，但不能直接說出答案。</p><div class="motion-guide"><div><strong>↘ 向下翻</strong>螢幕朝地板，猜對！</div><div><strong>↗ 向上翻</strong>螢幕朝天空，跳過</div></div><p class="notice">每次翻轉後，請把手機立回額頭前再繼續。<br>按下開始後有 3 秒準備時間。若有提示，請允許動作感測權限。<br>也可以點螢幕按鈕，或用鍵盤 ↓ 猜對、↑ 跳過。</p><button class="primary" id="start">開始這一回合 →</button><p class="notice" id="sensor-status" role="status"></p><button class="back" id="back">← 返回選題庫</button></main>`;
   bind('#back', home); bind('#start', start);
