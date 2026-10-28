@@ -1,16 +1,45 @@
 import { decks } from './decks.js';
+import { categories, filterDecks } from './catalog.js';
 import { shuffle, screenTilt, TiltGate } from './game.js';
 const app = document.querySelector('#app');
-let selected = decks[0], duration = 60, phase = 'home', queue = [], answers = [], deadline = 0;
+let searchQuery = '', activeCategory = '全部題庫';
+let selected = decks.find(deck => deck.id === 'daily'), duration = 60, phase = 'home', queue = [], answers = [], deadline = 0;
 let ticker, countdownTimer, feedbackTimer, index = 0, busy = false, gate = new TiltGate(), motionEnabled = false, wakeLock, audio;
 const $ = selector => app.querySelector(selector);
 function bind(selector, callback) { $(selector)?.addEventListener('click', callback); }
 function home() {
   cleanup(); phase = 'home';
-  app.innerHTML = `<header><div class="brand"><span class="brand-icon">?</span>猜猜俱樂部</div><span class="tag">GOOD FRIENDS. GREAT GUESSES.</span></header><main class="home"><div class="hero"><div><div class="eyebrow"><span class="dot"></span>聚在一起，就開一局</div><h1>手機舉高，<br>把<span>默契玩出來。</span></h1><p class="intro">你來猜，朋友來提示。<br>一支手機就能開始，下一個派對的快樂擔當。</p></div><div class="art" aria-hidden="true"><div class="orbit"></div><span class="spark">✦</span><div class="phone-art"><div class="phone-screen">珍珠奶茶</div></div><div class="bubble one">這個你每天都喝！</div><div class="bubble two">猜對了！ ↘</div></div></div><div class="steps"><span class="step"><b>1</b>選個題庫</span><span class="step"><b>2</b>手機橫放額頭</span><span class="step"><b>3</b>向下猜對・向上跳過</span></div><div class="section-head"><h2>今天想挑戰什麼？</h2><span class="muted">6 個題庫 · ${decks.reduce((n,d)=>n+d.words.length,0)} 道題目</span></div><div class="decks">${decks.map(d=>`<button class="deck ${d.id===selected.id?'selected':''}" data-deck="${d.id}" aria-pressed="${d.id===selected.id}" style="--deck-color:${d.color}"><div class="deck-top"><span class="deck-icon" aria-hidden="true">${d.icon}</span><span class="deck-count">${d.words.length} 道題目</span></div><h3>${d.name}</h3><p>${d.description}</p>${d.id===selected.id?'<span class="check" aria-hidden="true">✓</span>':''}</button>`).join('')}</div><div class="settings"><div class="duration"><span>每回合時間</span><div class="segments" role="group" aria-label="每回合時間">${[60,90,120].map(n=>`<button data-duration="${n}" class="${duration===n?'active':''}" aria-pressed="${duration===n}">${n} 秒</button>`).join('')}</div></div><button class="primary" id="prepare">就位，準備開猜 <span>↗</span></button></div><footer class="footer"><span>MADE FOR THE MOMENTS TOGETHER</span><span>不用下載，不用登入。</span></footer></main>`;
-  app.querySelectorAll('[data-deck]').forEach(el=>el.onclick=()=>{selected=decks.find(d=>d.id===el.dataset.deck);home();});
+  app.innerHTML = `<header><div class="brand"><span class="brand-icon">?</span>猜猜俱樂部</div><span class="tag">GOOD FRIENDS. GREAT GUESSES.</span></header><main class="home"><div class="hero"><div><div class="eyebrow"><span class="dot"></span>聚在一起，就開一局</div><h1>手機舉高，<br>把<span>默契玩出來。</span></h1><p class="intro">你來猜，朋友來提示。<br>一支手機就能開始，下一個派對的快樂擔當。</p></div><div class="art" aria-hidden="true"><div class="orbit"></div><span class="spark">✦</span><div class="phone-art"><div class="phone-screen">珍珠奶茶</div></div><div class="bubble one">這個你每天都喝！</div><div class="bubble two">猜對了！ ↘</div></div></div><div class="steps"><span class="step"><b>1</b>選個題庫</span><span class="step"><b>2</b>手機橫放額頭</span><span class="step"><b>3</b>向下猜對・向上跳過</span></div><div class="section-head"><h2>今天想挑戰什麼？</h2><span class="muted">${decks.length} 個題庫 · ${decks.reduce((n,d)=>n+d.words.length,0)} 道題目</span></div><div class="catalog-tools"><label class="search-box"><span aria-hidden="true">⌕</span><input id="deck-search" type="search" placeholder="搜尋題庫，例如：法律、恐龍、金曲" aria-label="搜尋題庫" autocomplete="off"><button id="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></label><div class="categories" role="group" aria-label="題庫分類">${categories.map(category => `<button data-category="${category}" aria-pressed="${category === activeCategory}" class="${category === activeCategory ? 'active' : ''}">${category}</button>`).join('')}</div></div><p class="catalog-status" id="catalog-status" role="status"></p><div class="decks" id="deck-grid"></div><div class="catalog-empty" id="catalog-empty" hidden><p>沒有符合的題庫，換個關鍵字試試。</p><button class="secondary" id="reset-filters">顯示全部題庫</button></div><div class="settings"><div class="selection-summary"><span class="muted">本回合題庫</span><strong id="selected-deck-name">${selected.name}</strong></div><div class="duration"><span>每回合時間</span><div class="segments" role="group" aria-label="每回合時間">${[60,90,120].map(n=>`<button data-duration="${n}" class="${duration===n?'active':''}" aria-pressed="${duration===n}">${n} 秒</button>`).join('')}</div></div><button class="primary" id="prepare">就位，準備開猜 <span>↗</span></button></div><footer class="footer"><span>MADE FOR THE MOMENTS TOGETHER</span><span>不用下載，不用登入。</span></footer></main>`;
+  $('#deck-search').value = searchQuery;
+  $('#deck-search').addEventListener('input', event => { searchQuery = event.target.value; renderCatalog(); });
+  bind('#clear-search', () => { searchQuery = ''; $('#deck-search').value = ''; renderCatalog(); $('#deck-search').focus(); });
+  app.querySelectorAll('[data-category]').forEach(el => el.onclick = () => {
+    activeCategory = el.dataset.category;
+    app.querySelectorAll('[data-category]').forEach(button => {
+      button.classList.toggle('active', button.dataset.category === activeCategory);
+      button.setAttribute('aria-pressed', String(button.dataset.category === activeCategory));
+    });
+    renderCatalog();
+  });
+  bind('#reset-filters', () => { searchQuery = ''; activeCategory = '全部題庫'; home(); });
+  $('#deck-grid').addEventListener('click', event => {
+    const button = event.target.closest('[data-deck]');
+    if (!button) return;
+    selected = decks.find(deck => deck.id === button.dataset.deck);
+    renderCatalog();
+    $('#selected-deck-name').textContent = selected.name;
+    $(`[data-deck="${selected.id}"]`)?.focus({ preventScroll: true });
+  });
+  renderCatalog();
   app.querySelectorAll('[data-duration]').forEach(el=>el.onclick=()=>{duration=Number(el.dataset.duration);home();});
   bind('#prepare', prepare);
+}
+function renderCatalog() {
+  const visible = filterDecks(searchQuery, activeCategory);
+  $('#deck-grid').innerHTML = visible.map(d => `<button class="deck ${d.id === selected.id ? 'selected' : ''}" data-deck="${d.id}" aria-pressed="${d.id === selected.id}" style="--deck-color:${d.color}"><div class="deck-top"><span class="deck-icon" aria-hidden="true">${d.icon}</span><span class="deck-count">${d.words.length} 道題目</span></div><h3>${d.name}</h3><p>${d.description}</p>${d.id === selected.id ? '<span class="check" aria-hidden="true">✓</span>' : ''}</button>`).join('');
+  $('#catalog-status').textContent = `顯示 ${visible.length} 個題庫 · 每個題庫至少 150 題`;
+  $('#catalog-empty').hidden = visible.length > 0;
+  $('#clear-search').hidden = !searchQuery;
 }
 function prepare() {
   phase = 'prepare';
@@ -43,7 +72,7 @@ function begin() {
 }
 function renderPlay(feedback) {
   const seconds = Math.max(0, Math.ceil((deadline-performance.now())/1000));
-  app.innerHTML = `<main class="play ${feedback||''}"><div class="progress"><div style="width:${seconds/duration*100}%"></div></div><div class="play-top"><span>${selected.name} · ✓ ${answers.filter(a=>a.status==='correct').length}</span><span class="timer ${seconds<=10?'urgent':''}" role="timer">${seconds}<small> 秒</small></span><button class="end" id="end">結束回合</button></div><div>${feedback?`<div class="feedback" role="status">${feedback==='correct'?'✓ 猜對了！':'↗ 跳過'}</div>`:`<div class="word">${queue[index]}</div>`}<p class="rotate-hint">↔ 請把手機橫過來，讓朋友更容易看見</p></div><div class="play-bottom"><button id="skip" ${busy?'disabled':''}>↑ 跳過</button><span>${feedback?'把手機立回來，繼續下一題':motionEnabled?'向上跳過 · 向下猜對':'點擊按鈕，或使用方向鍵'}</span><button id="correct" ${busy?'disabled':''}>猜對 ↓</button></div></main>`;
+  app.innerHTML = `<main class="play ${feedback||''}"><div class="progress"><div style="width:${seconds/duration*100}%"></div></div><div class="play-top"><span>${selected.name} · ✓ ${answers.filter(a=>a.status==='correct').length}</span><span class="timer ${seconds<=10?'urgent':''}" role="timer">${seconds}<small> 秒</small></span><button class="end" id="end">結束回合</button></div><div>${feedback?`<div class="feedback" role="status">${feedback==='correct'?'✓ 猜對了！':'↗ 跳過'}</div>`:`<div class="word ${[...queue[index]].length > 12 ? 'word-long' : [...queue[index]].length > 7 ? 'word-medium' : ''}">${queue[index]}</div>`}<p class="rotate-hint">↔ 請把手機橫過來，讓朋友更容易看見</p></div><div class="play-bottom"><button id="skip" ${busy?'disabled':''}>↑ 跳過</button><span>${feedback?'把手機立回來，繼續下一題':motionEnabled?'向上跳過 · 向下猜對':'點擊按鈕，或使用方向鍵'}</span><button id="correct" ${busy?'disabled':''}>猜對 ↓</button></div></main>`;
   bind('#correct',()=>answer('correct'));bind('#skip',()=>answer('skip'));bind('#end',confirmEnd);
 }
 function tick() {
