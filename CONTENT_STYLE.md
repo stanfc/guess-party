@@ -14,16 +14,16 @@
 | 領域 | 採用詞彙 |
 | --- | --- |
 | 日常、動植物 | 機車、羽球、蝦蛄、科摩多巨蜥、巨花魔芋、伶盜龍 |
-| 科技 | 智慧喇叭、繪圖處理器、無反光鏡相機、全像投影、開放原始碼軟體、3D列印 |
-| 資工 | 行程、執行緒、內容切換、號誌、二元索引樹、分支界限法、互斥集合、兩階段認可 |
+| 科技 | 智慧喇叭、繪圖處理器、無反光鏡相機、全像投影、數位孿生、開放原始碼軟體、3D列印 |
+| 資工 | 行程、執行緒、內容切換、號誌、二元索引樹、分支限界法、不相交集合、兩階段認可 |
 | 電機 | 矽控整流器、帶拒濾波器、直流截波器、場效應電晶體 |
 | 生物、醫學 | 訊息RNA、轉移RNA、溶小體、離層酸、全血球計數檢查、三酸甘油脂 |
 | 作品 | 影子籃球員、金法尤物、愛是您愛是我 |
 
 ## 核對參考
 
-- [國家教育研究院：分支定界法／分支界限法](https://pedia.cloud.edu.tw/Entry/Detail?title=分支定界法)
-- [中央研究院資訊所：本文無關文法](https://www.iis.sinica.edu.tw/file/entry/10382/FULLTEXT/zh/tr88007.pdf)
+- [國家教育研究院：分支法譯名參考](https://pedia.cloud.edu.tw/Entry/Detail?title=分支定界法)
+- [中央研究院資訊所：文法譯名參考](https://www.iis.sinica.edu.tw/file/entry/10382/FULLTEXT/zh/tr88007.pdf)
 - [Microsoft 繁體中文文件：內容切換](https://learn.microsoft.com/zh-tw/windows/win32/procthread/context-switches)
 - [Microsoft 繁體中文文件：兩階段認可](https://learn.microsoft.com/zh-tw/host-integration-server/core/glossary2)
 - [清華大學開放式課程：帶拒濾波器](https://ocw.nthu.edu.tw/chapter/133/1599?lang=cn)
@@ -36,3 +36,12 @@
 - [OPENTIX：愛是您・愛是我](https://www.opentix.life/event/1985592371673743361)
 - [國家圖書館送存書目：影子籃球員](https://nclfile.ncl.edu.tw/files/202410/98b7b652-03a9-45c8-a250-39590742faa6.pdf)
 - [東映台灣授權商店：數碼寶貝](https://www.toeianim-store.com.tw/v2/official/SalePageCategory/497980)
+
+## 已確認的用字選擇
+
+- 成語使用「揠苗助長」；動物使用「娃娃魚、六角蠑螈」。
+- 資工使用「上下文無關文法、不相交集合、分支限界法」。不同台灣教材可能採其他譯名；共用詞不應僅因另一地區也使用就判定為不適用。
+- 保留「我只是個計程車司機、哈溫平衡、普吉島、棉堡、加拉巴哥群島、哥布林、提示詞、越野跑、跳台滑雪、布隆過濾器」。
+- 「靈異孤兒院」與「怪奇孤兒院」是不同作品，各自保留一題。
+- 電影片名採「王者之聲：宣戰時刻」與「007：皇家夜總會」；標點屬片名的一部分，不拆成不同題目。[Netflix 台灣：王者之聲：宣戰時刻](https://www.netflix.com/tw/title/70135893)
+- 動作使用「棒式」，科技題目使用「拍立得」。
