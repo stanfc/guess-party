@@ -10,7 +10,7 @@ test('shaking near the threshold cannot trigger an answer',()=>{const gate=new T
 test('all decks have at least 150 unique nonempty words and distinct IDs',()=>{assert.equal(new Set(decks.map(d=>d.id)).size,decks.length);for(const d of decks){assert.ok(d.words.length>=150, `${d.name} has only ${d.words.length} words`);assert.equal(new Set(d.words).size,d.words.length);assert.ok(d.words.every(w=>w.trim().length>0));}});
 
 test('requested topics are present, including specialist legal and dinosaur vocabulary', () => {
-  for (const id of ['geography','animals','idioms','daily','jobs','songs','law','dinosaurs']) {
+  for (const id of ['geography','animals','idioms','daily','jobs','songs','law','dinosaurs','computer-science','electrical-engineering','biology','medical-health']) {
     assert.ok(decks.some(deck => deck.id === id), `Missing topic: ${id}`);
   }
   assert.ok(decks.find(d => d.id === 'law').words.includes('容許構成要件錯誤'));
