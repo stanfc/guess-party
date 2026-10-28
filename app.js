@@ -1,6 +1,6 @@
 import { decks } from './decks.js';
 import { connectInstallButton } from './pwa.js';
-import { categories, filterDecks } from './catalog.js';
+import { categories, filterDecks, allDeck } from './catalog.js';
 import { shuffle, screenTilt, TiltGate, parseDuration } from './game.js';
 const app = document.querySelector('#app');
 let durationMode = 'preset', customDuration = '150';
@@ -29,7 +29,7 @@ function home() {
   $('#deck-grid').addEventListener('click', event => {
     const button = event.target.closest('[data-deck]');
     if (!button) return;
-    selected = decks.find(deck => deck.id === button.dataset.deck);
+    selected = button.dataset.deck === allDeck.id ? allDeck : decks.find(deck => deck.id === button.dataset.deck);
     renderCatalog();
     $('#selected-deck-name').textContent = selected.name;
     $(`[data-deck="${selected.id}"]`)?.focus({ preventScroll: true });
