@@ -1,0 +1,1525 @@
+{
+  "date": "2026-10-29",
+  "source_revision": "23bd0989e63fc89e06f1ad86b7bae75a94b66b5f",
+  "scope": "逐項閱讀全部題目；疑義詞另查台灣資料。一般詞無個別查證來源，不宣稱所有譯名均有官方核定。",
+  "sources": {
+    "slang-origin": {
+      "title": "中央社：中國用詞滲入台灣兒少日常字彙（包含破防）",
+      "url": "https://www.cna.com.tw/news/ahel/202607260094.aspx"
+    },
+    "slang-melon": {
+      "title": "中央社：說明吃瓜的網路語境",
+      "url": "https://www.cna.com.tw/news/acn/202112030381.aspx"
+    },
+    "slang-tw": {
+      "title": "Taiwan.md 用語保存計畫（民間對照整理，僅作選詞參考，不視為每詞語源定論）",
+      "url": "https://taiwan.md/terminology/"
+    },
+    "emotional-support": {
+      "title": "基隆市衛生局：情緒支持的使用例",
+      "url": "https://www.klcg.gov.tw/tw/klcg1/1387-317196.html"
+    },
+    "long-distance": {
+      "title": "國立臺南大學：遠距離戀愛伴侶研究",
+      "url": "https://cg.nutn.edu.tw/upload/遠距離戀愛伴侶性實踐經驗之敘說研究.pdf"
+    },
+    "nintendo64": {
+      "title": "任天堂台灣：Nintendo 64",
+      "url": "https://www.nintendo.com/tw/nintendo-switch-online/expansion-pack/index.html"
+    },
+    "mental-exhaustion": {
+      "title": "台北市心理衛生中心：說明內耗的心理語境（並非禁止使用該詞）",
+      "url": "https://mental-health.gov.taipei/News_Content.aspx?n=117760319DAB664F&s=A9C48F0401E2C72C&sms=0D9C3FAA1367281C"
+    },
+    "halo": {
+      "title": "國科會科技大觀園：月暈效應",
+      "url": "https://scitechvista.nat.gov.tw/Article/C000009/detail?ID=62a61a0d-adef-48c7-9339-a1149553577e"
+    },
+    "autosome": {
+      "title": "臺中榮民總醫院：體染色體隱性遺傳",
+      "url": "https://www.vghtc.gov.tw/News_Content/2586/13005"
+    },
+    "autosome-education": {
+      "title": "國立臺灣科學教育館：體染色體顯性遺傳",
+      "url": "https://www.ntsec.gov.tw/article/FileAtt.ashx?id=5634"
+    },
+    "skeleton": {
+      "title": "智慧財產局兩岸用語對照：俯式雪橇／鋼架雪車",
+      "url": "https://www.tipo.gov.tw/wSite/public/Attachment/0/f1746433990859.pdf"
+    },
+    "xiao": {
+      "title": "教育部重編國語辭典：簫",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=7025&q=1&word=1"
+    },
+    "cargo": {
+      "title": "UNIQLO 台灣：卡其褲和工作褲",
+      "url": "https://www.uniqlo.com/chino-cargo_m/tw/"
+    },
+    "ear-stud": {
+      "title": "台南市後港國中：服儀規定使用透明耳針",
+      "url": "https://schoolweb.tn.edu.tw/~hgjh_www/modules/tadnews/index.php?g2p=6&ncsn=1&nsn=229"
+    },
+    "lunar-new-year": {
+      "title": "移民署新住民全球新聞網：初一拜年、初二回娘家",
+      "url": "https://news.immigration.gov.tw/NewsSection/Detail/E6D803A9-31C1-40E6-85A5-674EBB193DEF?lang=in&topic=onetouch"
+    },
+    "counter-strike": {
+      "title": "Valve 繁體中文官網：絕對武力",
+      "url": "https://www.counter-strike.net/?l=tchinese"
+    },
+    "overcooked": {
+      "title": "PlayStation 台灣商店：Overcooked! All You Can Eat",
+      "url": "https://store.playstation.com/zh-hant-tw/concept/10000899"
+    },
+    "big-bang": {
+      "title": "Netflix 台灣：宅男行不行",
+      "url": "https://www.netflix.com/tw/title/70143830"
+    },
+    "prison-break": {
+      "title": "Disney+ 台灣：越獄風雲",
+      "url": "https://www.disneyplus.com/zh-tw/browse/entity-d1d023da-ebb7-474c-b858-c4890e2d5757"
+    },
+    "lost": {
+      "title": "Apple TV 台灣：LOST檔案",
+      "url": "https://tv.apple.com/tw/show/lost檔案/umc.cmc.224vt3dmosi0331a2yc8ny3l8"
+    },
+    "nigeru": {
+      "title": "緯來日本台：月薪嬌妻",
+      "url": "https://japan.videoland.com.tw/vl_japan-article.php?id=2998"
+    },
+    "killing-eve": {
+      "title": "LINE TV：追殺夏娃",
+      "url": "https://www.linetv.tw/drama/15502/behind/14128"
+    },
+    "broke-girls": {
+      "title": "Prime Video 繁體中文：破產姊妹花",
+      "url": "https://www.primevideo.com/-/zh_TW/detail/0NFED42SIL07AH3L7VW19NFSCW"
+    },
+    "wave-makers": {
+      "title": "Netflix 台灣：人選之人—造浪者",
+      "url": "https://www.netflix.com/tw/title/81655481"
+    },
+    "good-doctor": {
+      "title": "Netflix 台灣：良醫墨非",
+      "url": "https://www.netflix.com/tw/title/80176893"
+    },
+    "house-of-cards": {
+      "title": "Netflix 台灣：紙牌屋",
+      "url": "https://www.netflix.com/tw/title/70178217"
+    },
+    "manifest": {
+      "title": "Netflix 台灣：命運航班",
+      "url": "https://www.netflix.com/tw/title/80241318"
+    },
+    "queen-interrogation": {
+      "title": "Netflix 台灣：女王偵訊室",
+      "url": "https://www.netflix.com/tw/title/81351279"
+    },
+    "chernobyl": {
+      "title": "Apple TV 台灣：核爆家園",
+      "url": "https://tv.apple.com/tw/show/核爆家園/umc.cmc.4r07f208iugn79go4pmvpcqbt"
+    },
+    "videoland": {
+      "title": "緯來日本台：播映日劇名單含東大特訓班",
+      "url": "https://japan.videoland.com.tw/about_vl.php"
+    },
+    "kilimanjaro": {
+      "title": "教育部重編國語辭典：吉力馬札羅山",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=87930&q=1&word=札"
+    },
+    "catherine": {
+      "title": "教育部重編國語辭典：凱薩琳",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=76881&la=0&powerMode=0"
+    },
+    "cfg": {
+      "title": "教育部教育百科：上下文無關語言",
+      "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=上下文無關語言"
+    },
+    "hardy-weinberg": {
+      "title": "教育部教育大市集：哈溫平衡",
+      "url": "https://market.cloud.edu.tw/search/kwmap108_result.jsp?bmtype=&kwcode=4&p=416&sortfield=updated_at-"
+    },
+    "bloom": {
+      "title": "Microsoft Learn 繁體中文：Bloom 過濾器／布隆過濾器",
+      "url": "https://learn.microsoft.com/zh-tw/azure/databricks/optimizations/bloom-filters"
+    },
+    "curling": {
+      "title": "中華奧林匹克委員會：冰壺",
+      "url": "https://www.tpenoc.net/sport/curling/"
+    },
+    "shield": {
+      "title": "Disney+ 台灣：神盾局特工",
+      "url": "https://www.disneyplus.com/zh-tw/browse/entity-63516dff-91f8-4deb-b110-d22552f329cb"
+    },
+    "splatoon": {
+      "title": "任天堂台灣：斯普拉遁 3",
+      "url": "https://www.nintendo.com/tw/switch/av5ja/"
+    },
+    "it-takes-two": {
+      "title": "EA 繁體中文：雙人成行",
+      "url": "https://www.ea.com/zh-hant/games/it-takes-two/it-takes-two"
+    },
+    "subway": {
+      "title": "App Store 台灣：地鐵跑酷-Subway Surfers",
+      "url": "https://apps.apple.com/tw/app/地鐵跑酷-subway-surfers/id1635929354"
+    },
+    "po-i": {
+      "title": "Netflix 台灣：疑犯追蹤",
+      "url": "https://www.netflix.com/tw/title/70197042"
+    },
+    "aed": {
+      "title": "衛福部：自動體外心臟電擊去顫器",
+      "url": "https://www.mohw.gov.tw/cp-6569-74562-1.html"
+    },
+    "peak-to-peak": {
+      "title": "國立臺灣大學科學Online：峰對峰值",
+      "url": "https://case.ntu.edu.tw/highscope/物理/index5c3c.html?lcp_page0=115"
+    },
+    "apparent-power": {
+      "title": "ROHM 台灣：視在功率",
+      "url": "https://techweb.rohm.com.tw/product/circuit-design/electric-circuit-design/20887/"
+    },
+    "pride": {
+      "title": "教育部國語辭典簡編本：得意釋義也使用自豪",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=7438&la=0&powerMode=0"
+    },
+    "hula": {
+      "title": "教育部重編國語辭典：呼拉圈",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=82521&q=1&word=呼"
+    },
+    "dinosaurs": {
+      "title": "國立自然科學博物館：恐龍時代",
+      "url": "https://www.nmns.edu.tw/ch/exhibitions/galleries/life-science-hall/the-age-of-dinosaurs/"
+    },
+    "yoshi": {
+      "title": "任天堂台灣：耀西的手工世界",
+      "url": "https://www.nintendo.com/tw/switch/yoshis_crafted_world/index.html"
+    },
+    "six-of-us": {
+      "title": "大愛電視：我們六個",
+      "url": "https://event.tzuchiculture.org/do-good-with-tzu-chi/dogood_action/the-six-of-us/"
+    },
+    "kingdom": {
+      "title": "Netflix 台灣：屍戰朝鮮",
+      "url": "https://www.netflix.com/tw/title/80180171"
+    },
+    "one-piece": {
+      "title": "萬代南夢宮：蒙其．D．魯夫",
+      "url": "https://opflag.bn-ent.net/tc/character/index.php?chara=chara1"
+    },
+    "jiejie": {
+      "title": "教育部重編國語辭典：姐與姊相通",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=5606&la=0&powerMode=0"
+    }
+  },
+  "changes": [
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "破防",
+      "new": "氣到跳腳",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "蹭熱度",
+      "new": "搭順風車",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "鍵盤俠",
+      "new": "鍵盤魔人",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "置板凳",
+      "new": "搬椅子等看戲",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "蓋樓",
+      "new": "推文接龍",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "尬聊",
+      "new": "硬找話題",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "尬爆",
+      "new": "尷尬到不行",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "社死",
+      "new": "糗到想鑽地洞",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "社恐",
+      "new": "怕生",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "社牛",
+      "new": "超級外向",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "情緒價值",
+      "new": "情緒支持",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "海王",
+      "new": "到處留情",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "養魚",
+      "new": "到處曖昧",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "問就是",
+      "new": "不要問很可怕",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "這波不虧",
+      "new": "賺到啦",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "不忍直視",
+      "new": "看不下去",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "我也是醉了",
+      "new": "真的是齁",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "直接封神",
+      "new": "有夠神",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "神仙打架",
+      "new": "高手過招",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "史詩級翻車",
+      "new": "出大糗",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "人間清醒",
+      "new": "看得很開",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "迷惑行為",
+      "new": "莫名其妙",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "不是吧阿Sir",
+      "new": "不會吧大哥",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "大型翻車現場",
+      "new": "出包現場",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "內耗",
+      "new": "想太多",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "懶癌末期",
+      "new": "懶到生菇",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "吃瓜",
+      "new": "看熱鬧",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "懂的都懂",
+      "new": "內行看門道",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "翻車了",
+      "new": "出包了",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "暖男",
+      "new": "貼心男",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "渣男",
+      "new": "負心漢",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "直接原地爆炸",
+      "new": "氣到快炸掉",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "大可不必",
+      "new": "真的不用",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "先別急",
+      "new": "麥緊張",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "驚不驚喜",
+      "new": "有沒有很驚喜",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "意不意外",
+      "new": "有沒有很意外",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "奇怪的知識增加了",
+      "new": "長知識了",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "官方吐槽",
+      "new": "官方自己吐槽",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "deck": "台灣迷因大賞",
+      "old": "風向帶起來",
+      "new": "帶風向",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "slang-origin",
+        "slang-melon",
+        "slang-tw",
+        "emotional-support"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "romance",
+      "deck": "戀愛修羅場",
+      "old": "異地戀",
+      "new": "跨國戀情",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "long-distance",
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "romance",
+      "deck": "戀愛修羅場",
+      "old": "姐弟戀",
+      "new": "姊弟戀",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "long-distance",
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "romance",
+      "deck": "戀愛修羅場",
+      "old": "網戀見面",
+      "new": "和網友約會",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "long-distance",
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "romance",
+      "deck": "戀愛修羅場",
+      "old": "情侶情人節約會",
+      "new": "情人節約會",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "long-distance",
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "romance",
+      "deck": "戀愛修羅場",
+      "old": "感情內耗",
+      "new": "感情讓人心累",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "long-distance",
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "romance",
+      "deck": "戀愛修羅場",
+      "old": "斷聯",
+      "new": "不再聯絡",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "long-distance",
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "romance",
+      "deck": "戀愛修羅場",
+      "old": "小情緒",
+      "new": "鬧彆扭",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "long-distance",
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "romance",
+      "deck": "戀愛修羅場",
+      "old": "摸頭殺",
+      "new": "溫柔摸頭",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "long-distance",
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "campus",
+      "deck": "校園回憶殺",
+      "old": "同桌",
+      "new": "隔壁同學",
+      "kind": "編輯換題",
+      "reason": "以台灣日常稱呼替換，不主張兩者座位關係必然相同。",
+      "refs": [],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "childhood",
+      "deck": "童年大集合",
+      "old": "小霸王遊戲機",
+      "new": "Nintendo64",
+      "kind": "編輯換題",
+      "reason": "改用台灣童年較熟悉的題目；替換產品、材質或表達，非宣稱原項不存在。",
+      "refs": [
+        "nintendo64"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "childhood",
+      "deck": "童年大集合",
+      "old": "橡皮泥",
+      "new": "紙黏土",
+      "kind": "編輯換題",
+      "reason": "改用台灣童年較熟悉的題目；替換產品、材質或表達，非宣稱原項不存在。",
+      "refs": [
+        "nintendo64"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "childhood",
+      "deck": "童年大集合",
+      "old": "紋身貼紙",
+      "new": "刺青貼紙",
+      "kind": "編輯換題",
+      "reason": "改用台灣童年較熟悉的題目；替換產品、材質或表達，非宣稱原項不存在。",
+      "refs": [
+        "nintendo64"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "emotions-psychology",
+      "deck": "情緒與心理",
+      "old": "精神內耗",
+      "new": "心力交瘁",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "mental-exhaustion"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "emotions-psychology",
+      "deck": "情緒與心理",
+      "old": "冷暴力",
+      "new": "冷漠對待",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "mental-exhaustion"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "emotions-psychology",
+      "deck": "情緒與心理",
+      "old": "邊界感",
+      "new": "尊重界線",
+      "kind": "編輯換題",
+      "reason": "改為較自然的台灣口語題目；屬編輯替換，不主張為嚴格同義詞或原詞只在中國使用。",
+      "refs": [
+        "mental-exhaustion"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "emotions-psychology",
+      "deck": "情緒與心理",
+      "old": "光環效應",
+      "new": "月暈效應",
+      "kind": "台灣教材譯名",
+      "reason": "依台灣科教資料採用月暈效應；光環效應也是通行譯名，不標成錯詞。",
+      "refs": [
+        "halo"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "biology",
+      "deck": "生物名詞",
+      "old": "常染色體",
+      "new": "體染色體",
+      "kind": "台灣教材譯名",
+      "reason": "依台灣教學及醫療資料統一採體染色體；兩詞指相同概念。",
+      "refs": [
+        "autosome",
+        "autosome-education"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "sports",
+      "deck": "運動競技場",
+      "old": "鋼架雪車",
+      "new": "俯式雪橇",
+      "kind": "台灣用語",
+      "reason": "採台灣官方兩岸用詞對照表中的俯式雪橇；原詞台灣報導也會使用。",
+      "refs": [
+        "skeleton"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "music-dance",
+      "deck": "音樂與舞蹈",
+      "old": "蕭",
+      "new": "簫",
+      "kind": "錯字",
+      "reason": "樂器應為竹字頭的簫；蕭是不同字，不是地區用語差異。",
+      "refs": [
+        "xiao"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "music-dance",
+      "deck": "音樂與舞蹈",
+      "old": "齊舞",
+      "new": "團體舞",
+      "kind": "編輯換題",
+      "reason": "改成容易理解的舞蹈描述，不把專業圈使用的齊舞判為錯詞。",
+      "refs": [],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "fashion",
+      "deck": "服裝與時尚",
+      "old": "工裝褲",
+      "new": "工作褲",
+      "kind": "編輯換題",
+      "reason": "改成台灣讀者容易理解的服裝描述；屬編輯選詞，不主張所有原詞都不能在台灣使用。",
+      "refs": [
+        "cargo",
+        "ear-stud"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "fashion",
+      "deck": "服裝與時尚",
+      "old": "工裝風",
+      "new": "工作服風格",
+      "kind": "編輯換題",
+      "reason": "改成台灣讀者容易理解的服裝描述；屬編輯選詞，不主張所有原詞都不能在台灣使用。",
+      "refs": [
+        "cargo",
+        "ear-stud"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "fashion",
+      "deck": "服裝與時尚",
+      "old": "耳釘",
+      "new": "耳針式耳環",
+      "kind": "編輯換題",
+      "reason": "改成台灣讀者容易理解的服裝描述；屬編輯選詞，不主張所有原詞都不能在台灣使用。",
+      "refs": [
+        "cargo",
+        "ear-stud"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "fashion",
+      "deck": "服裝與時尚",
+      "old": "甜酷風",
+      "new": "甜美個性風",
+      "kind": "編輯換題",
+      "reason": "改成台灣讀者容易理解的服裝描述；屬編輯選詞，不主張所有原詞都不能在台灣使用。",
+      "refs": [
+        "cargo",
+        "ear-stud"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "fashion",
+      "deck": "服裝與時尚",
+      "old": "多巴胺穿搭",
+      "new": "亮色系穿搭",
+      "kind": "編輯換題",
+      "reason": "改成台灣讀者容易理解的服裝描述；屬編輯選詞，不主張所有原詞都不能在台灣使用。",
+      "refs": [
+        "cargo",
+        "ear-stud"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "kpop",
+      "deck": "K-POP 宇宙",
+      "old": "站姐",
+      "new": "追星攝影",
+      "kind": "編輯換題",
+      "reason": "改成易懂的活動描述，不沿用粉圈稱呼；不是指攝影者與活動完全同義。",
+      "refs": [
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "festivals",
+      "deck": "節慶與習俗",
+      "old": "壓年錢",
+      "new": "紅包袋",
+      "kind": "編輯換題",
+      "reason": "避免以壓年錢與壓歲錢湊近義題，並以初一拜年與初二回娘家呈現常見習俗。",
+      "refs": [
+        "lunar-new-year"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "festivals",
+      "deck": "節慶與習俗",
+      "old": "初一回娘家",
+      "new": "初一拜年",
+      "kind": "編輯換題",
+      "reason": "避免以壓年錢與壓歲錢湊近義題，並以初一拜年與初二回娘家呈現常見習俗。",
+      "refs": [
+        "lunar-new-year"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "video-games",
+      "deck": "遊戲玩家",
+      "old": "反恐精英",
+      "new": "絕對武力",
+      "kind": "台灣官方譯名",
+      "reason": "依 Valve 繁體中文官方網站採用絕對武力。",
+      "refs": [
+        "counter-strike"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "video-games",
+      "deck": "遊戲玩家",
+      "old": "胡鬧廚房",
+      "new": "Overcooked",
+      "kind": "作品名稱標準化",
+      "reason": "採 PlayStation 台灣商店使用的原文系列名稱；台灣也會使用胡鬧廚房或煮過頭，並非認定原譯名錯誤。",
+      "refs": [
+        "overcooked"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "生活大爆炸",
+      "new": "宅男行不行",
+      "kind": "台灣官方譯名",
+      "reason": "依 Netflix 台灣作品頁訂正。",
+      "refs": [
+        "big-bang"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "越獄",
+      "new": "越獄風雲",
+      "kind": "台灣官方譯名",
+      "reason": "依 Disney+ 台灣作品頁訂正。",
+      "refs": [
+        "prison-break"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "迷失",
+      "new": "LOST檔案",
+      "kind": "台灣官方譯名",
+      "reason": "依 Apple TV 台灣作品頁訂正。",
+      "refs": [
+        "lost"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "逃避雖可恥但有用",
+      "new": "月薪嬌妻",
+      "kind": "台灣官方譯名",
+      "reason": "依台灣播映單位緯來日本台採用月薪嬌妻。",
+      "refs": [
+        "nigeru"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "殺死伊芙",
+      "new": "追殺夏娃",
+      "kind": "台灣官方譯名",
+      "reason": "依台灣 LINE TV 作品頁採用追殺夏娃。",
+      "refs": [
+        "killing-eve"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "破產姐妹",
+      "new": "破產姊妹花",
+      "kind": "台灣播映譯名",
+      "reason": "依 Prime Video 繁體中文作品說明採破產姊妹花。",
+      "refs": [
+        "broke-girls"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "人選之人造浪者波",
+      "new": "人選之人—造浪者",
+      "kind": "片名錯字／黏連",
+      "reason": "依 Netflix 台灣正式片名，移除多出的字詞。",
+      "refs": [
+        "wave-makers",
+        "good-doctor"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "良醫墨非實習醫生",
+      "new": "良醫墨非",
+      "kind": "片名錯字／黏連",
+      "reason": "依 Netflix 台灣正式片名，移除多出的字詞。",
+      "refs": [
+        "wave-makers",
+        "good-doctor"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "追緝令",
+      "new": "紙牌屋",
+      "kind": "替換歧義／別名重複題",
+      "reason": "原題未能明確識別為哪部影集，改採可查證的另一部影集紙牌屋，不是將兩者當同義片名。",
+      "refs": [
+        "house-of-cards"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "絕命航班",
+      "new": "命運航班",
+      "kind": "替換歧義／別名重複題",
+      "reason": "未取得原題指涉影集的台灣片名依據，換成 Netflix 台灣影集命運航班，兩者不是同部作品的已確認對譯。",
+      "refs": [
+        "manifest"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "龍櫻",
+      "new": "女王偵訊室",
+      "kind": "替換歧義／別名重複題",
+      "reason": "龍櫻與本庫的東大特訓班為同作品別名，將這一格換成另一部影集女王偵訊室。",
+      "refs": [
+        "queen-interrogation",
+        "videoland"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "tv-series",
+      "deck": "影集追劇王",
+      "old": "冰與火之歌",
+      "new": "核爆家園",
+      "kind": "替換歧義／別名重複題",
+      "reason": "與本庫權力遊戲指同一影集，這一格換成另一部影集核爆家園，保留權力遊戲一題。",
+      "refs": [
+        "chernobyl"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "food",
+      "deck": "吃貨集合",
+      "old": "吃貨集合",
+      "new": "美食大集合",
+      "kind": "題庫名稱",
+      "reason": "採用直接清楚的台灣日常表達，避免吃貨、回憶殺、戲精等流行稱呼。",
+      "refs": [
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "campus",
+      "deck": "校園回憶殺",
+      "old": "校園回憶殺",
+      "new": "校園青春記憶",
+      "kind": "題庫名稱",
+      "reason": "採用直接清楚的台灣日常表達，避免吃貨、回憶殺、戲精等流行稱呼。",
+      "refs": [
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "acting",
+      "deck": "戲精挑戰賽",
+      "old": "戲精挑戰賽",
+      "new": "演技大考驗",
+      "kind": "題庫名稱",
+      "reason": "採用直接清楚的台灣日常表達，避免吃貨、回憶殺、戲精等流行稱呼。",
+      "refs": [
+        "slang-tw"
+      ],
+      "evidence_scope": "所列資料為詞義／語境或替換題目的參考；替換措辭由編輯決定，並非來源逐詞判定為中國用語。"
+    },
+    {
+      "deck_id": "geography",
+      "deck": "世界地圖",
+      "old": "乞力馬札羅山",
+      "new": "吉力馬札羅山",
+      "kind": "台灣譯名",
+      "reason": "依教育部辭典與文化部世界遺產頁採吉力馬札羅山。",
+      "refs": [
+        "kilimanjaro"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    },
+    {
+      "deck_id": "history",
+      "deck": "歷史時光機",
+      "old": "葉卡捷琳娜二世",
+      "new": "凱薩琳二世",
+      "kind": "台灣常用譯名",
+      "reason": "依教育部辭典採凱薩琳二世；原名也是依俄語轉譯的名稱，不是錯誤人名。",
+      "refs": [
+        "catherine"
+      ],
+      "evidence_scope": "所列來源支持採用詞形或正式作品名稱；不推論原詞在台灣完全無人使用。"
+    }
+  ],
+  "retained": [
+    {
+      "deck_id": "computer-science",
+      "word": "上下文無關文法",
+      "reason": "台灣教育部資料採此詞，保留先前使用者指定用法。",
+      "refs": [
+        "cfg"
+      ]
+    },
+    {
+      "deck_id": "computer-science",
+      "word": "布隆過濾器",
+      "reason": "繁中官方技術資料也使用，不能只因音譯就判為中國用詞。",
+      "refs": [
+        "bloom"
+      ]
+    },
+    {
+      "deck_id": "biology",
+      "word": "哈溫平衡",
+      "reason": "台灣教學資料可見此譯名。",
+      "refs": [
+        "hardy-weinberg"
+      ]
+    },
+    {
+      "deck_id": "sports",
+      "word": "冰壺",
+      "reason": "中華奧會使用此名稱，不誤改成其他稱呼。",
+      "refs": [
+        "curling"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "word": "神盾局特工",
+      "reason": "Disney+ 台灣正式名稱。",
+      "refs": [
+        "shield"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "word": "疑犯追蹤",
+      "reason": "Netflix 台灣正式名稱。",
+      "refs": [
+        "po-i"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "word": "我們六個",
+      "reason": "確實為大愛製作台劇，並非誤植。",
+      "refs": [
+        "six-of-us"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "word": "屍戰朝鮮",
+      "reason": "台灣串流平台的作品名稱。",
+      "refs": [
+        "kingdom"
+      ]
+    },
+    {
+      "deck_id": "video-games",
+      "word": "斯普拉遁",
+      "reason": "任天堂台灣正式名稱。",
+      "refs": [
+        "splatoon"
+      ]
+    },
+    {
+      "deck_id": "video-games",
+      "word": "耀西的手工世界",
+      "reason": "任天堂台灣正式名稱。",
+      "refs": [
+        "yoshi"
+      ]
+    },
+    {
+      "deck_id": "video-games",
+      "word": "雙人成行",
+      "reason": "EA 繁體中文正式名稱。",
+      "refs": [
+        "it-takes-two"
+      ]
+    },
+    {
+      "deck_id": "video-games",
+      "word": "地鐵跑酷",
+      "reason": "台灣商店中發行者也使用此名稱，不逕行改名。",
+      "refs": [
+        "subway"
+      ]
+    },
+    {
+      "deck_id": "medical-health",
+      "word": "自動體外心臟電擊去顫器",
+      "reason": "衛福部公告採此完整名稱。",
+      "refs": [
+        "aed"
+      ]
+    },
+    {
+      "deck_id": "electrical-engineering",
+      "word": "峰對峰值",
+      "reason": "台灣科教資料有使用。",
+      "refs": [
+        "peak-to-peak"
+      ]
+    },
+    {
+      "deck_id": "electrical-engineering",
+      "word": "視在功率",
+      "reason": "台灣業界技術資料使用此譯名。",
+      "refs": [
+        "apparent-power"
+      ]
+    },
+    {
+      "deck_id": "emotions-psychology",
+      "word": "自豪",
+      "reason": "教育部辭典釋義使用，不屬只能在中國使用的詞。",
+      "refs": [
+        "pride"
+      ]
+    },
+    {
+      "deck_id": "actions",
+      "word": "轉呼拉圈",
+      "reason": "教育部辭典作呼拉圈，不誤改為呼啦圈。",
+      "refs": [
+        "hula"
+      ]
+    },
+    {
+      "deck_id": "anime",
+      "word": "蒙其D魯夫",
+      "reason": "台灣授權遊戲的角色譯名與原題一致（題目省略分隔點）。",
+      "refs": [
+        "one-piece"
+      ]
+    }
+  ]
+}
