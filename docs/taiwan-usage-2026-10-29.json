@@ -1521,5 +1521,8 @@
         "one-piece"
       ]
     }
-  ]
+  ],
+  "status": "superseded",
+  "superseded_by": "taiwan-terminology-2026-10-30.json",
+  "warning": "歷史操作紀錄：73處已撤回；不得將編輯換題當作專業術語或中國用語訂正。"
 }

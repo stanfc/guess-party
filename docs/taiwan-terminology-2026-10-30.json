@@ -1,0 +1,1709 @@
+{
+  "date": "2026-10-30",
+  "replaces": "taiwan-usage-2026-10-29",
+  "scope": "重審前輪86處；恢復不必要改寫，檢視7個專業題庫1330題，生物180題另列逐題表；僅列有直接資料支持者為查證保留。",
+  "policy": [
+    "不把迷因改成普通敘述",
+    "不以語源或在中國出現判定不可用",
+    "譯名須對應相同英文專業概念",
+    "台灣並存譯名不自動判錯",
+    "保留與撤回的範圍均完整記錄"
+  ],
+  "previous_decisions": [
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "破防",
+      "previous_edited": "氣到跳腳",
+      "current": "破防",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "蹭熱度",
+      "previous_edited": "搭順風車",
+      "current": "蹭熱度",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "鍵盤俠",
+      "previous_edited": "鍵盤魔人",
+      "current": "鍵盤俠",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "置板凳",
+      "previous_edited": "搬椅子等看戲",
+      "current": "置板凳",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "蓋樓",
+      "previous_edited": "推文接龍",
+      "current": "蓋樓",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "尬聊",
+      "previous_edited": "硬找話題",
+      "current": "尬聊",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "尬爆",
+      "previous_edited": "尷尬到不行",
+      "current": "尬爆",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "社死",
+      "previous_edited": "糗到想鑽地洞",
+      "current": "社死",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "社恐",
+      "previous_edited": "怕生",
+      "current": "社恐",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "社牛",
+      "previous_edited": "超級外向",
+      "current": "社牛",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "情緒價值",
+      "previous_edited": "情緒支持",
+      "current": "情緒價值",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "海王",
+      "previous_edited": "到處留情",
+      "current": "海王",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "養魚",
+      "previous_edited": "到處曖昧",
+      "current": "養魚",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "問就是",
+      "previous_edited": "不要問很可怕",
+      "current": "問就是",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "這波不虧",
+      "previous_edited": "賺到啦",
+      "current": "這波不虧",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "不忍直視",
+      "previous_edited": "看不下去",
+      "current": "不忍直視",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "我也是醉了",
+      "previous_edited": "真的是齁",
+      "current": "我也是醉了",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "直接封神",
+      "previous_edited": "有夠神",
+      "current": "直接封神",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "神仙打架",
+      "previous_edited": "高手過招",
+      "current": "神仙打架",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "史詩級翻車",
+      "previous_edited": "出大糗",
+      "current": "史詩級翻車",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "人間清醒",
+      "previous_edited": "看得很開",
+      "current": "人間清醒",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "迷惑行為",
+      "previous_edited": "莫名其妙",
+      "current": "迷惑行為",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "不是吧阿Sir",
+      "previous_edited": "不會吧大哥",
+      "current": "不是吧阿Sir",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "大型翻車現場",
+      "previous_edited": "出包現場",
+      "current": "大型翻車現場",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "內耗",
+      "previous_edited": "想太多",
+      "current": "內耗",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "懶癌末期",
+      "previous_edited": "懶到生菇",
+      "current": "懶癌末期",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "吃瓜",
+      "previous_edited": "看熱鬧",
+      "current": "吃瓜",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "懂的都懂",
+      "previous_edited": "內行看門道",
+      "current": "懂的都懂",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "翻車了",
+      "previous_edited": "出包了",
+      "current": "翻車了",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "暖男",
+      "previous_edited": "貼心男",
+      "current": "暖男",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "渣男",
+      "previous_edited": "負心漢",
+      "current": "渣男",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "直接原地爆炸",
+      "previous_edited": "氣到快炸掉",
+      "current": "直接原地爆炸",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "大可不必",
+      "previous_edited": "真的不用",
+      "current": "大可不必",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "先別急",
+      "previous_edited": "麥緊張",
+      "current": "先別急",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "驚不驚喜",
+      "previous_edited": "有沒有很驚喜",
+      "current": "驚不驚喜",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "意不意外",
+      "previous_edited": "有沒有很意外",
+      "current": "意不意外",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "奇怪的知識增加了",
+      "previous_edited": "長知識了",
+      "current": "奇怪的知識增加了",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "官方吐槽",
+      "previous_edited": "官方自己吐槽",
+      "current": "官方吐槽",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "taiwan-memes",
+      "previous_original": "風向帶起來",
+      "previous_edited": "帶風向",
+      "current": "風向帶起來",
+      "decision": "撤回",
+      "reason": "撤回：把迷因換成普通敘述會失去梗；不因語源或別處也使用就自行替換。迷因題庫整組恢復。",
+      "sources": []
+    },
+    {
+      "deck_id": "romance",
+      "previous_original": "異地戀",
+      "previous_edited": "跨國戀情",
+      "current": "異地戀",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "romance",
+      "previous_original": "姐弟戀",
+      "previous_edited": "姊弟戀",
+      "current": "姐弟戀",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "romance",
+      "previous_original": "網戀見面",
+      "previous_edited": "和網友約會",
+      "current": "網戀見面",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "romance",
+      "previous_original": "情侶情人節約會",
+      "previous_edited": "情人節約會",
+      "current": "情侶情人節約會",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "romance",
+      "previous_original": "感情內耗",
+      "previous_edited": "感情讓人心累",
+      "current": "感情內耗",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "romance",
+      "previous_original": "斷聯",
+      "previous_edited": "不再聯絡",
+      "current": "斷聯",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "romance",
+      "previous_original": "小情緒",
+      "previous_edited": "鬧彆扭",
+      "current": "小情緒",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "romance",
+      "previous_original": "摸頭殺",
+      "previous_edited": "溫柔摸頭",
+      "current": "摸頭殺",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "campus",
+      "previous_original": "同桌",
+      "previous_edited": "隔壁同學",
+      "current": "同桌",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "childhood",
+      "previous_original": "小霸王遊戲機",
+      "previous_edited": "Nintendo64",
+      "current": "小霸王遊戲機",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "childhood",
+      "previous_original": "橡皮泥",
+      "previous_edited": "紙黏土",
+      "current": "橡皮泥",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "childhood",
+      "previous_original": "紋身貼紙",
+      "previous_edited": "刺青貼紙",
+      "current": "紋身貼紙",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "emotions-psychology",
+      "previous_original": "精神內耗",
+      "previous_edited": "心力交瘁",
+      "current": "精神內耗",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "emotions-psychology",
+      "previous_original": "冷暴力",
+      "previous_edited": "冷漠對待",
+      "current": "冷暴力",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "emotions-psychology",
+      "previous_original": "邊界感",
+      "previous_edited": "尊重界線",
+      "current": "邊界感",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "emotions-psychology",
+      "previous_original": "光環效應",
+      "previous_edited": "月暈效應",
+      "current": "光環效應",
+      "decision": "撤回",
+      "reason": "撤回：光環效應與月暈效應在台灣並存，沒有必要單靠譯名偏好改題。",
+      "sources": []
+    },
+    {
+      "deck_id": "biology",
+      "previous_original": "常染色體",
+      "previous_edited": "體染色體",
+      "current": "體染色體",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-autosome",
+        "previous-autosome-education"
+      ]
+    },
+    {
+      "deck_id": "sports",
+      "previous_original": "鋼架雪車",
+      "previous_edited": "俯式雪橇",
+      "current": "俯式雪橇",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-skeleton"
+      ]
+    },
+    {
+      "deck_id": "music-dance",
+      "previous_original": "蕭",
+      "previous_edited": "簫",
+      "current": "簫",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-xiao"
+      ]
+    },
+    {
+      "deck_id": "music-dance",
+      "previous_original": "齊舞",
+      "previous_edited": "團體舞",
+      "current": "齊舞",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "fashion",
+      "previous_original": "工裝褲",
+      "previous_edited": "工作褲",
+      "current": "工裝褲",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "fashion",
+      "previous_original": "工裝風",
+      "previous_edited": "工作服風格",
+      "current": "工裝風",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "fashion",
+      "previous_original": "耳釘",
+      "previous_edited": "耳針式耳環",
+      "current": "耳釘",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "fashion",
+      "previous_original": "甜酷風",
+      "previous_edited": "甜美個性風",
+      "current": "甜酷風",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "fashion",
+      "previous_original": "多巴胺穿搭",
+      "previous_edited": "亮色系穿搭",
+      "current": "多巴胺穿搭",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "kpop",
+      "previous_original": "站姐",
+      "previous_edited": "追星攝影",
+      "current": "站姐",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "festivals",
+      "previous_original": "壓年錢",
+      "previous_edited": "紅包袋",
+      "current": "壓年錢",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "festivals",
+      "previous_original": "初一回娘家",
+      "previous_edited": "初一拜年",
+      "current": "初一回娘家",
+      "decision": "撤回",
+      "reason": "撤回：原先以口語改寫或另換題目，未證明是必要的台灣專業譯名訂正。",
+      "sources": []
+    },
+    {
+      "deck_id": "video-games",
+      "previous_original": "反恐精英",
+      "previous_edited": "絕對武力",
+      "current": "絕對武力",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-counter-strike"
+      ]
+    },
+    {
+      "deck_id": "video-games",
+      "previous_original": "胡鬧廚房",
+      "previous_edited": "Overcooked",
+      "current": "胡鬧廚房",
+      "decision": "撤回",
+      "reason": "撤回：改成英文不代表更符合台灣版本；原作品譯名在台灣也有使用。",
+      "sources": []
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "生活大爆炸",
+      "previous_edited": "宅男行不行",
+      "current": "宅男行不行",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-big-bang"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "越獄",
+      "previous_edited": "越獄風雲",
+      "current": "越獄風雲",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-prison-break"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "迷失",
+      "previous_edited": "LOST檔案",
+      "current": "LOST檔案",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-lost"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "逃避雖可恥但有用",
+      "previous_edited": "月薪嬌妻",
+      "current": "月薪嬌妻",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-nigeru"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "殺死伊芙",
+      "previous_edited": "追殺夏娃",
+      "current": "追殺夏娃",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-killing-eve"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "破產姐妹",
+      "previous_edited": "破產姊妹花",
+      "current": "破產姊妹花",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-broke-girls"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "人選之人造浪者波",
+      "previous_edited": "人選之人—造浪者",
+      "current": "人選之人—造浪者",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-wave-makers",
+        "previous-good-doctor"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "良醫墨非實習醫生",
+      "previous_edited": "良醫墨非",
+      "current": "良醫墨非",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-wave-makers",
+        "previous-good-doctor"
+      ]
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "追緝令",
+      "previous_edited": "紙牌屋",
+      "current": "追緝令",
+      "decision": "撤回",
+      "reason": "撤回：不同作品互換不是翻譯訂正；指涉不明或別名問題另案記錄，不藉本次任意換片。",
+      "sources": []
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "絕命航班",
+      "previous_edited": "命運航班",
+      "current": "絕命航班",
+      "decision": "撤回",
+      "reason": "撤回：不同作品互換不是翻譯訂正；指涉不明或別名問題另案記錄，不藉本次任意換片。",
+      "sources": []
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "龍櫻",
+      "previous_edited": "女王偵訊室",
+      "current": "龍櫻",
+      "decision": "撤回",
+      "reason": "撤回：不同作品互換不是翻譯訂正；指涉不明或別名問題另案記錄，不藉本次任意換片。",
+      "sources": []
+    },
+    {
+      "deck_id": "tv-series",
+      "previous_original": "冰與火之歌",
+      "previous_edited": "核爆家園",
+      "current": "冰與火之歌",
+      "decision": "撤回",
+      "reason": "撤回：不同作品互換不是翻譯訂正；指涉不明或別名問題另案記錄，不藉本次任意換片。",
+      "sources": []
+    },
+    {
+      "deck_id": "food",
+      "previous_original": "吃貨集合",
+      "previous_edited": "美食大集合",
+      "current": "吃貨集合",
+      "decision": "撤回",
+      "reason": "撤回：題庫名稱的風格調整不在這次專業術語翻譯需求內。",
+      "sources": []
+    },
+    {
+      "deck_id": "campus",
+      "previous_original": "校園回憶殺",
+      "previous_edited": "校園青春記憶",
+      "current": "校園回憶殺",
+      "decision": "撤回",
+      "reason": "撤回：題庫名稱的風格調整不在這次專業術語翻譯需求內。",
+      "sources": []
+    },
+    {
+      "deck_id": "acting",
+      "previous_original": "戲精挑戰賽",
+      "previous_edited": "演技大考驗",
+      "current": "戲精挑戰賽",
+      "decision": "撤回",
+      "reason": "撤回：題庫名稱的風格調整不在這次專業術語翻譯需求內。",
+      "sources": []
+    },
+    {
+      "deck_id": "geography",
+      "previous_original": "乞力馬札羅山",
+      "previous_edited": "吉力馬札羅山",
+      "current": "吉力馬札羅山",
+      "decision": "保留",
+      "reason": "保留：相同作品／概念的台灣譯名或明確錯字訂正；不另換成其他題目。",
+      "sources": [
+        "previous-kilimanjaro"
+      ]
+    },
+    {
+      "deck_id": "history",
+      "previous_original": "葉卡捷琳娜二世",
+      "previous_edited": "凱薩琳二世",
+      "current": "葉卡捷琳娜二世",
+      "decision": "撤回",
+      "reason": "撤回：依俄語／英語轉譯的人名並存，不是需要更換人物名稱的錯誤。",
+      "sources": []
+    }
+  ],
+  "technical_changes": [
+    {
+      "deck_id": "computer-science",
+      "old": "位址轉譯旁路緩衝器",
+      "new": "轉譯後備緩衝器",
+      "english": "translation lookaside buffer (TLB)",
+      "reason": "原譯名混入旁路的直譯；採智慧財產局國際專利分類及台灣論文所用譯名，不更換概念。",
+      "sources": [
+        "tlb-tipo",
+        "tlb-ncl"
+      ]
+    },
+    {
+      "deck_id": "computer-science",
+      "old": "分區化",
+      "new": "資料分割",
+      "english": "data partitioning",
+      "reason": "依所在的資料庫脈絡，採 AWS 台灣繁中資料的資料分割；不混同 sharding，也不是改成資料庫正規化。",
+      "sources": [
+        "partition-aws"
+      ]
+    },
+    {
+      "deck_id": "biology",
+      "old": "移碼突變",
+      "new": "框移突變",
+      "english": "frameshift mutation",
+      "reason": "依國家教育研究院中小學常用中英雙語詞彙彙編採框移突變；移碼突變仍可見於台灣資料，不將其定性為中國專用詞。",
+      "sources": [
+        "frameshift-naer"
+      ]
+    },
+    {
+      "deck_id": "electrical-engineering",
+      "old": "羅倫茲力",
+      "new": "勞侖茲力",
+      "english": "Lorentz force",
+      "reason": "採國家教育研究院物理學名詞與台灣物理實驗教材使用的勞侖茲力；仍是相同物理概念，不是另換題目。",
+      "sources": [
+        "lorentz-naer",
+        "lorentz-nthu"
+      ]
+    },
+    {
+      "deck_id": "science",
+      "old": "奧爾特雲",
+      "new": "歐特雲",
+      "english": "Oort cloud",
+      "reason": "採中央氣象署數位科普網的譯名歐特雲；台灣資料也收錄奧爾特雲為別譯，不將別譯說成錯誤或中國專用。",
+      "sources": [
+        "oort-cwa",
+        "oort-tam"
+      ]
+    },
+    {
+      "deck_id": "biology",
+      "old": "基因流",
+      "new": "基因交流",
+      "english": "gene flow",
+      "reason": "採臺大科學Online教學名稱基因交流；仍指族群間等位基因移動，不換成其他遺傳現象。屬台灣教學譯名選擇，不宣稱基因流在台灣無人使用。",
+      "sources": [
+        "gene-flow-ntu"
+      ]
+    },
+    {
+      "deck_id": "biology",
+      "old": "分歧演化",
+      "new": "趨異演化",
+      "english": "divergent evolution",
+      "reason": "採臺大科學Online的趨異演化，並與同庫趨同演化相對應。台灣統測也用分歧演化，因此是並存譯名的選擇，不標為中國專用詞。",
+      "sources": [
+        "divergent-ntu",
+        "divergent-tcte"
+      ]
+    }
+  ],
+  "verified_retained": [
+    {
+      "deck_id": "computer-science",
+      "word": "布隆過濾器",
+      "english": "Bloom filter",
+      "sources": [
+        "bloom-ntust"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "computer-science",
+      "word": "最小成本擴張樹",
+      "english": "minimum cost spanning tree",
+      "sources": [
+        "mst-moex"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "computer-science",
+      "word": "強連通元件",
+      "english": "strongly connected component",
+      "sources": [
+        "scc-tku"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "computer-science",
+      "word": "歸約",
+      "english": "reduction (computational complexity)",
+      "sources": [
+        "reduction-ncu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "computer-science",
+      "word": "預先寫入記錄",
+      "english": "write-ahead logging",
+      "sources": [
+        "wal-ms"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "electrical-engineering",
+      "word": "電壓隨耦器",
+      "english": "voltage follower",
+      "sources": [
+        "voltage-follower-moex"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "electrical-engineering",
+      "word": "施密特觸發器",
+      "english": "Schmitt trigger",
+      "sources": [
+        "schmitt-moe"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "electrical-engineering",
+      "word": "共模拒斥比",
+      "english": "common-mode rejection ratio",
+      "sources": [
+        "cmrr-ti"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "electrical-engineering",
+      "word": "迴轉率",
+      "english": "slew rate",
+      "sources": [
+        "slew-ntu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "electrical-engineering",
+      "word": "奈奎斯特圖",
+      "english": "Nyquist plot",
+      "sources": [
+        "nyquist-nthu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "electrical-engineering",
+      "word": "臨界電壓",
+      "english": "threshold voltage",
+      "sources": [
+        "threshold-ntu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "science",
+      "word": "波粒二象性",
+      "english": "wave-particle duality",
+      "sources": [
+        "wave-particle-ntu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "technology",
+      "word": "過度配適",
+      "english": "overfitting",
+      "sources": [
+        "overfit-cbc"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "technology",
+      "word": "響應式網頁",
+      "english": "responsive web design",
+      "sources": [
+        "rwd-moda"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "technology",
+      "word": "虛擬私人網路",
+      "english": "virtual private network",
+      "sources": [
+        "vpn-nsysu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "technology",
+      "word": "雙因素驗證",
+      "english": "two-factor authentication",
+      "sources": [
+        "2fa-slack"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "遺傳漂變",
+      "english": "genetic drift",
+      "sources": [
+        "bio-drift-naer"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "創始者效應",
+      "english": "founder effect",
+      "sources": [
+        "bio-founder-ntu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "表觀遺傳",
+      "english": "epigenetics",
+      "sources": [
+        "bio-epi-ntu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "腺苷三磷酸",
+      "english": "ATP",
+      "sources": [
+        "bio-atp-hanlin"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "流體鑲嵌模型",
+      "english": "fluid mosaic model",
+      "sources": [
+        "bio-membrane-moe"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "促進性擴散",
+      "english": "facilitated diffusion",
+      "sources": [
+        "bio-diffusion-hanlin"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "胞吞作用",
+      "english": "endocytosis",
+      "sources": [
+        "bio-endo-nstc"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "胞吐作用",
+      "english": "exocytosis",
+      "sources": [
+        "bio-endo-nstc"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "蘭氏結",
+      "english": "nodes of Ranvier",
+      "sources": [
+        "bio-ranvier-moex"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "共顯性",
+      "english": "codominance",
+      "sources": [
+        "bio-codominance-hanlin"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "轉移RNA",
+      "english": "transfer RNA",
+      "sources": [
+        "bio-trna-moe"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "訊息RNA",
+      "english": "messenger RNA",
+      "sources": [
+        "bio-trna-moe"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "核糖體RNA",
+      "english": "ribosomal RNA",
+      "sources": [
+        "bio-trna-moe"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "DNA聚合酶",
+      "english": "DNA polymerase",
+      "sources": [
+        "bio-replication-ceec",
+        "bio-okazaki-hanlin"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "解旋酶",
+      "english": "helicase",
+      "sources": [
+        "bio-replication-ceec",
+        "bio-okazaki-hanlin"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "連接酶",
+      "english": "ligase",
+      "sources": [
+        "bio-okazaki-hanlin"
+      ],
+      "decision": "查證保留",
+      "reason": "DNA複製脈絡可由DNA連接酶教材確認名稱；保留原本較泛稱的連接酶，不將所有ligase改成僅指DNA的酵素。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "岡崎片段",
+      "english": "Okazaki fragment",
+      "sources": [
+        "bio-okazaki-hanlin"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "啟動子",
+      "english": "promoter",
+      "sources": [
+        "bio-genes-ncue"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "內含子",
+      "english": "intron",
+      "sources": [
+        "bio-genes-ncue"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "外顯子",
+      "english": "exon",
+      "sources": [
+        "bio-genes-ncue"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "基因靜默",
+      "english": "gene silencing",
+      "sources": [
+        "bio-silencing-sinica"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "適應輻射",
+      "english": "adaptive radiation",
+      "sources": [
+        "bio-adaptive-ntu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "生態棲位",
+      "english": "ecological niche",
+      "sources": [
+        "bio-niche-moex"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "受質專一性",
+      "english": "substrate specificity",
+      "sources": [
+        "bio-specificity-nstc"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "伴細胞",
+      "english": "companion cell",
+      "sources": [
+        "bio-companion-hanlin"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "半保留複製",
+      "english": "semiconservative replication",
+      "sources": [
+        "bio-semiconservative-moe"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "核小體",
+      "english": "nucleosome",
+      "sources": [
+        "bio-nucleosome-sinica"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "組蛋白",
+      "english": "histone",
+      "sources": [
+        "bio-nucleosome-sinica"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "染色質",
+      "english": "chromatin",
+      "sources": [
+        "bio-nucleosome-sinica"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "操縱組",
+      "english": "operon",
+      "sources": [
+        "bio-operon-nchu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "溶小體",
+      "english": "lysosome",
+      "sources": [
+        "bio-lysosome-ntu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "過氧化體",
+      "english": "peroxisome",
+      "sources": [
+        "bio-peroxisome-tfg"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "核型",
+      "english": "karyotype",
+      "sources": [
+        "bio-karyotype-nhri"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "biology",
+      "word": "細胞凋亡",
+      "english": "apoptosis",
+      "sources": [
+        "bio-apoptosis-sinica"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "medical-health",
+      "word": "腎絲球過濾率",
+      "english": "glomerular filtration rate",
+      "sources": [
+        "medical-gfr-ntu"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "medical-health",
+      "word": "糖化血色素",
+      "english": "glycated hemoglobin",
+      "sources": [
+        "medical-hba1c-hpa"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    },
+    {
+      "deck_id": "medical-health",
+      "word": "磁振造影",
+      "english": "magnetic resonance imaging",
+      "sources": [
+        "medical-mri-vghtpe"
+      ],
+      "decision": "查證保留",
+      "reason": "台灣教學、研究或官方文件有此用法；保留原詞，不因別譯存在而認定為中國專用詞。"
+    }
+  ],
+  "sources": {
+    "tlb-tipo": {
+      "title": "智慧財產局國際專利分類 G06F 12/1027：轉譯後備緩衝器",
+      "url": "https://www.tipo.gov.tw/tw/patents/478.html?isLevel=false&sb=G06F01714&vs=202501"
+    },
+    "tlb-ncl": {
+      "title": "臺灣博碩士論文：虛擬快取及全共享轉譯後備緩衝區",
+      "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id%3D%22104NTHU5442058%22.&searchmode=basic"
+    },
+    "partition-aws": {
+      "title": "AWS 繁中資料庫教材：資料分割",
+      "url": "https://d1.awsstatic.com/psc-digital/2024/gc-600/database-mod-apps/Building-modern-applications-using-AWS-databases-zh-tw.pdf"
+    },
+    "frameshift-naer": {
+      "title": "國家教育研究院中小學常用中英雙語詞彙彙編：frameshift mutation／框移突變",
+      "url": "https://teric.naer.edu.tw/wSite/DoDownload?fileName=1553030411237&format=pdf&xmlId=2037445"
+    },
+    "lorentz-naer": {
+      "title": "國家教育研究院物理學名詞：Lorentz force／勞侖茲力",
+      "url": "https://teric.naer.edu.tw/wSite/DoDownload?fileName=1462779739979&format=pdf&xmlId=1849190"
+    },
+    "lorentz-nthu": {
+      "title": "清華大學普通物理實驗：電流天平與勞侖茲電磁力",
+      "url": "https://www.phys.nthu.edu.tw/~gplab/exp014.html"
+    },
+    "oort-cwa": {
+      "title": "中央氣象署數位科普網：歐特雲",
+      "url": "https://edu.cwa.gov.tw/PopularScience/as/as_3.html"
+    },
+    "oort-tam": {
+      "title": "臺北天文館 Mitaka 介紹：歐特雲，另譯奧爾特雲",
+      "url": "https://www-ws.gov.taipei/001/Upload/439/relfile/21708/3425244/11111122050.pdf"
+    },
+    "gene-flow-ntu": {
+      "title": "臺大科學Online：基因交流",
+      "url": "https://case.ntu.edu.tw/highscope/基因交流/index.html"
+    },
+    "divergent-ntu": {
+      "title": "臺大科學Online：趨異演化（Divergent Evolution）",
+      "url": "https://case.ntu.edu.tw/highscope/趨異演化（divergent-evolution）/index.html"
+    },
+    "divergent-tcte": {
+      "title": "技專校院入學測驗：分歧演化（divergent evolution）",
+      "url": "https://web1.tcte.edu.tw/EXAM/090_4y/12_2.pdf"
+    },
+    "bloom-ntust": {
+      "title": "臺灣科技大學高等資料結構課程：動態雜湊與布隆過濾器",
+      "url": "https://www.csie.ntust.edu.tw/var/file/38/1038/img/2176/116415510.pdf"
+    },
+    "mst-moex": {
+      "title": "考選部試題：最小成本的擴張樹",
+      "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=508&code=112010&q=1&s=0601&t=Q"
+    },
+    "scc-tku": {
+      "title": "淡江大學演算法教材：強連通元件",
+      "url": "https://mail.tku.edu.tw/inhon/Algorithm_HW_2015.pdf"
+    },
+    "reduction-ncu": {
+      "title": "中央大學演算法教材：NP、SAT 與歸約",
+      "url": "https://staff.csie.ncu.edu.tw/jrjiang/alg2026/2026-Recipe%2C%20Cook%2C%20Carp%2C%20and%20Bernstein.pdf"
+    },
+    "wal-ms": {
+      "title": "Microsoft SQL Server 繁中官方文件：預先寫入記錄（WAL）",
+      "url": "https://learn.microsoft.com/zh-tw/sql/relational-databases/sql-server-transaction-log-architecture-and-management-guide?view=sql-server-ver17"
+    },
+    "voltage-follower-moex": {
+      "title": "考選部試題：電壓隨耦器",
+      "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=514&code=096260&q=1&s=4001&t=Q"
+    },
+    "schmitt-moe": {
+      "title": "教育大市集課綱與影片：施密特／史密特觸發器",
+      "url": "https://market.cloud.edu.tw/resources/video/1854652"
+    },
+    "cmrr-ti": {
+      "title": "Texas Instruments 繁中官方影片：共模拒斥比",
+      "url": "https://www.ti.com/zh-tw/video/6117695411001"
+    },
+    "slew-ntu": {
+      "title": "臺大論文關鍵字：迴轉率／slew rate",
+      "url": "https://tdr.lib.ntu.edu.tw/handle/123456789/15214"
+    },
+    "nyquist-nthu": {
+      "title": "清華大學開放式課程：奈奎斯特圖",
+      "url": "https://ocw.nthu.edu.tw/ocw/index.php?chid=1655&cid=133&page=chapter"
+    },
+    "threshold-ntu": {
+      "title": "臺大半導體論文：臨界電壓／threshold voltage",
+      "url": "https://tdr.lib.ntu.edu.tw/retrieve/30910a65-ac5e-4e1d-9000-902b6550935a/ntu-110-2.pdf"
+    },
+    "wave-particle-ntu": {
+      "title": "臺大科學Online：光波粒二象性",
+      "url": "https://case.ntu.edu.tw/微粒說/index.html"
+    },
+    "overfit-cbc": {
+      "title": "中央銀行研究：過度配適（overfitting）",
+      "url": "https://www.cbc.gov.tw/dl-181550-9f8b21f6618f4213b6c4d749f6e2deea.html"
+    },
+    "rwd-moda": {
+      "title": "數位發展部無障礙網路空間服務網：響應式網頁設計",
+      "url": "https://accessibility.moda.gov.tw/Questions/Detail/146?Category=18%2F"
+    },
+    "vpn-nsysu": {
+      "title": "中山大學圖書與資訊處：虛擬私人網路",
+      "url": "https://lis.nsysu.edu.tw/p/412-1001-7113.php?Lang=zh-tw"
+    },
+    "2fa-slack": {
+      "title": "Slack 繁體中文官方文件：雙因素驗證",
+      "url": "https://slack.com/intl/zh-tw/help/articles/204509068-設定雙因素驗證"
+    },
+    "frameshift-moex": {
+      "title": "台灣歷屆試題亦使用讀碼移位，說明非只有一種可用譯法",
+      "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=104&code=099010&q=1&s=200&t=Q"
+    },
+    "bio-drift-naer": {
+      "title": "國家教育研究院生態學名詞：基因漂變；遺傳漂變",
+      "url": "https://teric.naer.edu.tw/wSite/PDFReader?fileName=1469516817561&format=pdf&xmlId="
+    },
+    "bio-founder-ntu": {
+      "title": "臺大 CASE 報科學：創始者效應",
+      "url": "https://case.ntu.edu.tw/blog/?p=40003"
+    },
+    "bio-epi-ntu": {
+      "title": "臺大 CASE 報科學：表觀遺傳",
+      "url": "https://case.ntu.edu.tw/blog/?p=37642"
+    },
+    "bio-atp-hanlin": {
+      "title": "翰林高中生物：腺苷三磷酸",
+      "url": "https://www.ehanlin.com.tw/app/keyword/高中/生物/腺苷三磷酸.html"
+    },
+    "bio-membrane-moe": {
+      "title": "教育大市集：流體鑲嵌模型",
+      "url": "https://market.cloud.edu.tw/resources/video/1848918"
+    },
+    "bio-diffusion-hanlin": {
+      "title": "翰林高中生物：促進性擴散",
+      "url": "https://www.ehanlin.com.tw/app/keyword/高中/生物/促進性擴散.html"
+    },
+    "bio-endo-nstc": {
+      "title": "國科會科技大觀園：胞吞作用、胞吐作用",
+      "url": "https://scitechvista.nat.gov.tw/Article/c000008/detail?ID=a755d9f4-d6f5-4168-810a-fecdc6e42a99"
+    },
+    "bio-ranvier-moex": {
+      "title": "考選部試題：蘭氏結（nodes of Ranvier）",
+      "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=301&code=112020&q=1&s=11&t=Q"
+    },
+    "bio-codominance-hanlin": {
+      "title": "翰林高中生物：等顯性，又稱共顯性",
+      "url": "https://www.ehanlin.com.tw/app/keyword/高中/生物/等顯性.html"
+    },
+    "bio-trna-moe": {
+      "title": "教育部教育百科：轉移 RNA、訊息 RNA、核糖體 RNA",
+      "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=轉移核糖核酸"
+    },
+    "bio-replication-ceec": {
+      "title": "大考中心115分科生物評分說明：DNA連接酶、DNA聚合酶、解旋酶等詞",
+      "url": "https://www.ceec.edu.tw/xcepaper/cont?qperoid=0Q252586588219181161&sid=0Q257650379492479492&xsmsid=0J066588036013658199"
+    },
+    "bio-okazaki-hanlin": {
+      "title": "翰林111分科生物解析：岡崎片段、DNA聚合酶、解旋酶、DNA連接酶",
+      "url": "https://public.ehanlin.com.tw/pre-exam/astn/111分科測驗生物解析.pdf"
+    },
+    "bio-genes-ncue": {
+      "title": "彰化師大生物科學科能力競賽：啟動子、內含子、外顯子",
+      "url": "https://biology.ncue.edu.tw/download.php?dir=archive&filename=540b3d6568ac08915f624f25191326ab.pdf&title=111學年度考題.pdf"
+    },
+    "bio-silencing-sinica": {
+      "title": "中研院研究：基因靜默",
+      "url": "https://abrc.sinica.edu.tw/faculty/latest_research_view.php?aid=7266&id=yalin&lang=zh"
+    },
+    "bio-adaptive-ntu": {
+      "title": "臺大科學Online：適應輻射",
+      "url": "https://case.ntu.edu.tw/生命自會找到出路-談適應輻射adaptive-radiation-2/index.html"
+    },
+    "bio-niche-moex": {
+      "title": "考選部生態學試題：生態棲位（Niche）",
+      "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=437&code=113080&q=1&s=1711&t=Q"
+    },
+    "bio-specificity-nstc": {
+      "title": "國科會科技大觀園：受質專一性",
+      "url": "https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=cd8da3e4-5356-4338-a7d9-736cd8c832b0"
+    },
+    "bio-companion-hanlin": {
+      "title": "翰林高中生物：伴細胞",
+      "url": "https://www.ehanlin.com.tw/keywordPool/wordPage.html?key=伴細胞&subject=H-BI"
+    },
+    "bio-semiconservative-moe": {
+      "title": "教育大市集：半保留複製模式",
+      "url": "https://market.cloud.edu.tw/resources/video/1831021"
+    },
+    "bio-nucleosome-sinica": {
+      "title": "中研院訊：核小體、組蛋白、染色質",
+      "url": "https://newsletter.sinica.edu.tw/26961/"
+    },
+    "bio-operon-nchu": {
+      "title": "中興大學研究：人工基因操縱組",
+      "url": "https://idcsa.nchu.edu.tw/en/page-1.php?id=9d671e11-ed3f-11e8-adde-0050569c05ae"
+    },
+    "bio-lysosome-ntu": {
+      "title": "臺大醫院：溶小體儲積症酵素活性分析",
+      "url": "https://www.ntuh.gov.tw/gene-lab-bclab/Fpage.action?fid=8395"
+    },
+    "bio-peroxisome-tfg": {
+      "title": "北一女生物教材研習：過氧化體",
+      "url": "https://www.csghs.tp.edu.tw/wp-content/uploads/doc/zs2251/生物學學理解碼%20─教材疑難雜症討論.pdf"
+    },
+    "bio-karyotype-nhri": {
+      "title": "國家衛生研究院細胞庫：染色體核型分析",
+      "url": "https://rr.nhri.edu.tw/cellbank/c/c_1_16.htm"
+    },
+    "bio-apoptosis-sinica": {
+      "title": "中研院研究：細胞凋亡",
+      "url": "https://www.sinica.edu.tw/news_content/55/2671"
+    },
+    "medical-gfr-ntu": {
+      "title": "臺大醫院：腎絲球過濾率",
+      "url": "https://epaper.ntuh.gov.tw/health/202306/health_3.html"
+    },
+    "medical-hba1c-hpa": {
+      "title": "國民健康署：糖化血色素",
+      "url": "https://www.hpa.gov.tw/Pages/List.aspx?nodeid=359+"
+    },
+    "medical-mri-vghtpe": {
+      "title": "臺北榮總：磁振造影",
+      "url": "https://ihealth.vghtpe.gov.tw/media/401"
+    },
+    "previous-autosome": {
+      "title": "臺中榮民總醫院：體染色體隱性遺傳",
+      "url": "https://www.vghtc.gov.tw/News_Content/2586/13005"
+    },
+    "previous-autosome-education": {
+      "title": "國立臺灣科學教育館：體染色體顯性遺傳",
+      "url": "https://www.ntsec.gov.tw/article/FileAtt.ashx?id=5634"
+    },
+    "previous-skeleton": {
+      "title": "智慧財產局兩岸用語對照：俯式雪橇／鋼架雪車",
+      "url": "https://www.tipo.gov.tw/wSite/public/Attachment/0/f1746433990859.pdf"
+    },
+    "previous-xiao": {
+      "title": "教育部重編國語辭典：簫",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=7025&q=1&word=1"
+    },
+    "previous-counter-strike": {
+      "title": "Valve 繁體中文官網：絕對武力",
+      "url": "https://www.counter-strike.net/?l=tchinese"
+    },
+    "previous-big-bang": {
+      "title": "Netflix 台灣：宅男行不行",
+      "url": "https://www.netflix.com/tw/title/70143830"
+    },
+    "previous-prison-break": {
+      "title": "Disney+ 台灣：越獄風雲",
+      "url": "https://www.disneyplus.com/zh-tw/browse/entity-d1d023da-ebb7-474c-b858-c4890e2d5757"
+    },
+    "previous-lost": {
+      "title": "Apple TV 台灣：LOST檔案",
+      "url": "https://tv.apple.com/tw/show/lost檔案/umc.cmc.224vt3dmosi0331a2yc8ny3l8"
+    },
+    "previous-nigeru": {
+      "title": "緯來日本台：月薪嬌妻",
+      "url": "https://japan.videoland.com.tw/vl_japan-article.php?id=2998"
+    },
+    "previous-killing-eve": {
+      "title": "LINE TV：追殺夏娃",
+      "url": "https://www.linetv.tw/drama/15502/behind/14128"
+    },
+    "previous-broke-girls": {
+      "title": "Prime Video 繁體中文：破產姊妹花",
+      "url": "https://www.primevideo.com/-/zh_TW/detail/0NFED42SIL07AH3L7VW19NFSCW"
+    },
+    "previous-wave-makers": {
+      "title": "Netflix 台灣：人選之人—造浪者",
+      "url": "https://www.netflix.com/tw/title/81655481"
+    },
+    "previous-good-doctor": {
+      "title": "Netflix 台灣：良醫墨非",
+      "url": "https://www.netflix.com/tw/title/80176893"
+    },
+    "previous-kilimanjaro": {
+      "title": "教育部重編國語辭典：吉力馬札羅山",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=87930&q=1&word=札"
+    }
+  }
+}
