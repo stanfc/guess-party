@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { shuffle, screenTilt, TiltGate, parseDuration } from '../game.js';
+import { shuffle, screenTilt, TiltGate, parseDuration, questionParts } from '../game.js';
 import { decks } from '../decks.js';
 import { categories, filterDecks, allDeck } from '../catalog.js';
 test('shuffle keeps unique source words without mutating input',()=>{const input=['a','b','c','a'];const result=shuffle(input,()=>0);assert.deepEqual([...result].sort(),['a','b','c']);assert.equal(input.length,4);});
@@ -52,10 +52,29 @@ test('custom duration accepts integer seconds and rejects unusable timer values'
 });
 
 test('all-deck mode includes every source word once and supports catalog search', () => {
-  const expected = new Set(decks.flatMap(deck => deck.words));
-  assert.deepEqual(new Set(allDeck.words), expected);
+  const expected = new Set(decks.flatMap(deck => deck.words).map(word => questionParts(word).primary));
+  assert.deepEqual(new Set(allDeck.words.map(word => questionParts(word).primary)), expected);
   assert.equal(allDeck.words.length, expected.size);
+  assert.ok(allDeck.words.includes('神經網路（Neural Network）'));
+  assert.ok(!allDeck.words.includes('神經網路'));
+  assert.ok(allDeck.words.includes('Transformer'));
+  assert.ok(allDeck.words.includes('變壓器（Transformer）'));
   assert.equal(filterDecks()[0], allDeck);
   assert.ok(filterDecks('所有題庫').includes(allDeck));
   assert.ok(!filterDecks('', '知識探險').includes(allDeck));
+});
+
+
+test('technical questions retain English spaces and parentheses as one answer', () => {
+  assert.deepEqual(questionParts('卷積神經網路（Convolutional Neural Network (CNN)）'), {primary:'卷積神經網路', english:'Convolutional Neural Network (CNN)'});
+  assert.deepEqual(questionParts('FlashAttention'), {primary:'FlashAttention', english:null});
+  assert.deepEqual(questionParts('娃娃魚'), {primary:'娃娃魚', english:null});
+  const cs = decks.find(d => d.id === 'computer-science');
+  const ee = decks.find(d => d.id === 'electrical-engineering');
+  assert.equal(cs.words.length, 330);
+  assert.equal(ee.words.length, 180);
+  assert.ok(cs.words.slice(0,180).every(w => questionParts(w).english));
+  assert.ok(ee.words.every(w => questionParts(w).english));
+  for (const term of ['LoRA','QLoRA','FlashAttention','Transformer']) assert.ok(cs.words.includes(term));
+  for (const term of ['機器學習','強化學習','大型語言模型','卷積神經網路']) assert.ok(cs.words.some(w => questionParts(w).primary === term));
 });

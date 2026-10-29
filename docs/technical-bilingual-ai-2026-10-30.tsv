@@ -1,0 +1,511 @@
+題庫	中文／主名稱	英文	範圍
+資工名詞	時間複雜度	Time Complexity	原有題目
+資工名詞	空間複雜度	Space Complexity	原有題目
+資工名詞	漸近上界	Asymptotic Upper Bound	原有題目
+資工名詞	攤銷分析	Amortized Analysis	原有題目
+資工名詞	遞迴關係式	Recurrence Relation	原有題目
+資工名詞	主定理	Master Theorem	原有題目
+資工名詞	分治法	Divide and Conquer	原有題目
+資工名詞	動態規劃	Dynamic Programming (DP)	原有題目
+資工名詞	貪婪演算法	Greedy Algorithm	原有題目
+資工名詞	回溯法	Backtracking	原有題目
+資工名詞	分支限界法	Branch and Bound	原有題目
+資工名詞	暴力搜尋	Brute-force Search	原有題目
+資工名詞	啟發式搜尋	Heuristic Search	原有題目
+資工名詞	深度優先搜尋	Depth-first Search (DFS)	原有題目
+資工名詞	廣度優先搜尋	Breadth-first Search (BFS)	原有題目
+資工名詞	雙向搜尋	Bidirectional Search	原有題目
+資工名詞	二元搜尋	Binary Search	原有題目
+資工名詞	線性搜尋	Linear Search	原有題目
+資工名詞	拓樸排序	Topological Sort	原有題目
+資工名詞	最短路徑	Shortest Path	原有題目
+資工名詞	最小成本擴張樹	Minimum Spanning Tree (MST)	原有題目
+資工名詞	最大流	Maximum Flow	原有題目
+資工名詞	最小割	Minimum Cut	原有題目
+資工名詞	二分圖	Bipartite Graph	原有題目
+資工名詞	最大配對	Maximum Matching	原有題目
+資工名詞	強連通元件	Strongly Connected Component (SCC)	原有題目
+資工名詞	關節點	Articulation Point	原有題目
+資工名詞	歐拉路徑	Eulerian Path	原有題目
+資工名詞	漢米爾頓路徑	Hamiltonian Path	原有題目
+資工名詞	旅行推銷員問題	Traveling Salesperson Problem (TSP)	原有題目
+資工名詞	背包問題	Knapsack Problem	原有題目
+資工名詞	最長共同子序列	Longest Common Subsequence (LCS)	原有題目
+資工名詞	最長遞增子序列	Longest Increasing Subsequence (LIS)	原有題目
+資工名詞	編輯距離	Edit Distance	原有題目
+資工名詞	八皇后問題	Eight Queens Puzzle	原有題目
+資工名詞	河內塔	Tower of Hanoi	原有題目
+資工名詞	停機問題	Halting Problem	原有題目
+資工名詞	哥德爾不完備定理	Gödel's Incompleteness Theorem	原有題目
+資工名詞	圖靈機	Turing Machine	原有題目
+資工名詞	有限狀態機	Finite-state Machine (FSM)	原有題目
+資工名詞	正規語言	Regular Language	原有題目
+資工名詞	正規表示式	Regular Expression (Regex)	原有題目
+資工名詞	上下文無關文法	Context-free Grammar (CFG)	原有題目
+資工名詞	下推自動機	Pushdown Automaton (PDA)	原有題目
+資工名詞	確定性自動機	Deterministic Automaton	原有題目
+資工名詞	非確定性自動機	Nondeterministic Automaton	原有題目
+資工名詞	計算可判定性	Decidability	原有題目
+資工名詞	多項式時間	Polynomial Time	原有題目
+資工名詞	歸約	Reduction	原有題目
+資工名詞	非確定性多項式時間	Nondeterministic Polynomial Time (NP)	原有題目
+資工名詞	堆疊	Stack	原有題目
+資工名詞	佇列	Queue	原有題目
+資工名詞	雙向佇列	Deque	原有題目
+資工名詞	優先佇列	Priority Queue	原有題目
+資工名詞	單向鏈結串列	Singly Linked List	原有題目
+資工名詞	雙向鏈結串列	Doubly Linked List	原有題目
+資工名詞	循環鏈結串列	Circular Linked List	原有題目
+資工名詞	動態陣列	Dynamic Array	原有題目
+資工名詞	稀疏矩陣	Sparse Matrix	原有題目
+資工名詞	位元陣列	Bit Array	原有題目
+資工名詞	雜湊碰撞	Hash Collision	原有題目
+資工名詞	開放定址法	Open Addressing	原有題目
+資工名詞	鏈結法	Separate Chaining	原有題目
+資工名詞	完美雜湊	Perfect Hashing	原有題目
+資工名詞	布隆過濾器	Bloom Filter	原有題目
+資工名詞	不相交集合	Disjoint-set Union (DSU)	原有題目
+資工名詞	路徑壓縮	Path Compression	原有題目
+資工名詞	線段樹	Segment Tree	原有題目
+資工名詞	二元索引樹	Binary Indexed Tree (Fenwick Tree)	原有題目
+資工名詞	字典樹	Trie	原有題目
+資工名詞	二元搜尋樹	Binary Search Tree (BST)	原有題目
+資工名詞	平衡二元樹	Balanced Binary Tree	原有題目
+資工名詞	紅黑樹	Red-black Tree	原有題目
+資工名詞	B樹	B-tree	原有題目
+資工名詞	B加樹	B+ Tree	原有題目
+資工名詞	最小堆積	Min-heap	原有題目
+資工名詞	最大堆積	Max-heap	原有題目
+資工名詞	跳躍串列	Skip List	原有題目
+資工名詞	後綴陣列	Suffix Array	原有題目
+資工名詞	後綴樹	Suffix Tree	原有題目
+資工名詞	氣泡排序	Bubble Sort	原有題目
+資工名詞	選擇排序	Selection Sort	原有題目
+資工名詞	插入排序	Insertion Sort	原有題目
+資工名詞	合併排序	Merge Sort	原有題目
+資工名詞	快速排序	Quicksort	原有題目
+資工名詞	堆積排序	Heapsort	原有題目
+資工名詞	計數排序	Counting Sort	原有題目
+資工名詞	基數排序	Radix Sort	原有題目
+資工名詞	桶排序	Bucket Sort	原有題目
+資工名詞	外部排序	External Sorting	原有題目
+資工名詞	行程	Process	原有題目
+資工名詞	執行緒	Thread	原有題目
+資工名詞	行程排程	Process Scheduling	原有題目
+資工名詞	內容切換	Context Switch	原有題目
+資工名詞	系統呼叫	System Call	原有題目
+資工名詞	中斷	Interrupt	原有題目
+資工名詞	號誌	Semaphore	原有題目
+資工名詞	互斥鎖	Mutex	原有題目
+資工名詞	競爭條件	Race Condition	原有題目
+資工名詞	死結	Deadlock	原有題目
+資工名詞	臨界區域	Critical Section	原有題目
+資工名詞	讀者寫者問題	Readers–Writers Problem	原有題目
+資工名詞	生產者消費者問題	Producer–Consumer Problem	原有題目
+資工名詞	哲學家用餐問題	Dining Philosophers Problem	原有題目
+資工名詞	優先權反轉	Priority Inversion	原有題目
+資工名詞	飢餓現象	Starvation	原有題目
+資工名詞	活鎖	Livelock	原有題目
+資工名詞	不可分割操作	Atomic Operation	原有題目
+資工名詞	記憶體障壁	Memory Barrier	原有題目
+資工名詞	條件變數	Condition Variable	原有題目
+資工名詞	虛擬記憶體	Virtual Memory	原有題目
+資工名詞	分頁	Paging	原有題目
+資工名詞	分段	Segmentation	原有題目
+資工名詞	頁面置換	Page Replacement	原有題目
+資工名詞	缺頁中斷	Page Fault	原有題目
+資工名詞	位址轉譯	Address Translation	原有題目
+資工名詞	轉譯後備緩衝器	Translation Lookaside Buffer (TLB)	原有題目
+資工名詞	快取一致性	Cache Coherence	原有題目
+資工名詞	記憶體洩漏	Memory Leak	原有題目
+資工名詞	緩衝區溢位	Buffer Overflow	原有題目
+資工名詞	堆積記憶體	Heap Memory	原有題目
+資工名詞	堆疊記憶體	Stack Memory	原有題目
+資工名詞	記憶體回收	Garbage Collection (GC)	原有題目
+資工名詞	參考計數	Reference Counting	原有題目
+資工名詞	懸空指標	Dangling Pointer	原有題目
+資工名詞	未初始化指標	Uninitialized Pointer	原有題目
+資工名詞	記憶體對齊	Memory Alignment	原有題目
+資工名詞	位元組序	Byte Order	原有題目
+資工名詞	大端序	Big-endian	原有題目
+資工名詞	小端序	Little-endian	原有題目
+資工名詞	詞彙分析	Lexical Analysis	原有題目
+資工名詞	語法分析	Syntax Analysis (Parsing)	原有題目
+資工名詞	語意分析	Semantic Analysis	原有題目
+資工名詞	抽象語法樹	Abstract Syntax Tree (AST)	原有題目
+資工名詞	中介表示法	Intermediate Representation (IR)	原有題目
+資工名詞	常數折疊	Constant Folding	原有題目
+資工名詞	死碼消除	Dead Code Elimination	原有題目
+資工名詞	暫存器配置	Register Allocation	原有題目
+資工名詞	即時編譯	Just-in-time Compilation (JIT)	原有題目
+資工名詞	交叉編譯	Cross-compilation	原有題目
+資工名詞	型別推導	Type Inference	原有題目
+資工名詞	多型	Polymorphism	原有題目
+資工名詞	封裝	Encapsulation	原有題目
+資工名詞	繼承	Inheritance	原有題目
+資工名詞	抽象類別	Abstract Class	原有題目
+資工名詞	介面	Interface	原有題目
+資工名詞	多載	Overloading	原有題目
+資工名詞	覆寫	Overriding	原有題目
+資工名詞	閉包	Closure	原有題目
+資工名詞	延遲求值	Lazy Evaluation	原有題目
+資工名詞	資料庫正規化	Database Normalization	原有題目
+資工名詞	函數相依	Functional Dependency	原有題目
+資工名詞	候選鍵	Candidate Key	原有題目
+資工名詞	主鍵	Primary Key	原有題目
+資工名詞	外鍵	Foreign Key	原有題目
+資工名詞	索引	Index	原有題目
+資工名詞	交易	Transaction	原有題目
+資工名詞	隔離等級	Isolation Level	原有題目
+資工名詞	髒讀	Dirty Read	原有題目
+資工名詞	幻讀	Phantom Read	原有題目
+資工名詞	預先寫入記錄	Write-ahead Logging (WAL)	原有題目
+資工名詞	多版本並行控制	Multiversion Concurrency Control (MVCC)	原有題目
+資工名詞	兩階段認可	Two-phase Commit (2PC)	原有題目
+資工名詞	分散式共識	Distributed Consensus	原有題目
+資工名詞	最終一致性	Eventual Consistency	原有題目
+資工名詞	線性一致性	Linearizability	原有題目
+資工名詞	複寫	Replication	原有題目
+資工名詞	資料分割	Data Partitioning	原有題目
+資工名詞	容錯	Fault Tolerance	原有題目
+資工名詞	拜占庭將軍問題	Byzantine Generals Problem	原有題目
+資工名詞	三向交握	Three-way Handshake	原有題目
+資工名詞	滑動視窗	Sliding Window	原有題目
+資工名詞	壅塞控制	Congestion Control	原有題目
+資工名詞	封包交換	Packet Switching	原有題目
+資工名詞	距離向量路由	Distance-vector Routing	原有題目
+資工名詞	鏈結狀態路由	Link-state Routing	原有題目
+資工名詞	公開金鑰密碼學	Public-key Cryptography	原有題目
+資工名詞	雜湊函數	Hash Function	原有題目
+資工名詞	緩衝區不足	Insufficient Buffer Space	原有題目
+資工名詞	跨網站指令碼攻擊	Cross-site Scripting (XSS)	原有題目
+資工名詞	機器學習	Machine Learning (ML)	新增 AI
+資工名詞	深度學習	Deep Learning (DL)	新增 AI
+資工名詞	監督式學習	Supervised Learning	新增 AI
+資工名詞	非監督式學習	Unsupervised Learning	新增 AI
+資工名詞	半監督式學習	Semi-supervised Learning	新增 AI
+資工名詞	自監督式學習	Self-supervised Learning	新增 AI
+資工名詞	強化學習	Reinforcement Learning (RL)	新增 AI
+資工名詞	遷移學習	Transfer Learning	新增 AI
+資工名詞	多任務學習	Multi-task Learning	新增 AI
+資工名詞	主動學習	Active Learning	新增 AI
+資工名詞	訓練集	Training Set	新增 AI
+資工名詞	驗證集	Validation Set	新增 AI
+資工名詞	測試集	Test Set	新增 AI
+資工名詞	交叉驗證	Cross-validation	新增 AI
+資工名詞	資料洩漏	Data Leakage	新增 AI
+資工名詞	過度配適	Overfitting	新增 AI
+資工名詞	配適不足	Underfitting	新增 AI
+資工名詞	偏差與變異	Bias and Variance	新增 AI
+資工名詞	正規化	Regularization	新增 AI
+資工名詞	提前停止訓練	Early Stopping	新增 AI
+資工名詞	梯度下降	Gradient Descent	新增 AI
+資工名詞	隨機梯度下降	Stochastic Gradient Descent (SGD)	新增 AI
+資工名詞	小批次梯度下降	Mini-batch Gradient Descent	新增 AI
+資工名詞	反向傳播	Backpropagation	新增 AI
+資工名詞	自動微分	Automatic Differentiation (Autodiff)	新增 AI
+資工名詞	學習率	Learning Rate	新增 AI
+資工名詞	學習率排程	Learning Rate Schedule	新增 AI
+資工名詞	梯度裁切	Gradient Clipping	新增 AI
+資工名詞	梯度消失	Vanishing Gradient	新增 AI
+資工名詞	梯度爆炸	Exploding Gradient	新增 AI
+資工名詞	線性迴歸	Linear Regression	新增 AI
+資工名詞	邏輯斯迴歸	Logistic Regression	新增 AI
+資工名詞	決策樹	Decision Tree	新增 AI
+資工名詞	隨機森林	Random Forest	新增 AI
+資工名詞	支援向量機	Support Vector Machine (SVM)	新增 AI
+資工名詞	k近鄰法	k-Nearest Neighbors (k-NN)	新增 AI
+資工名詞	k平均分群	k-Means Clustering	新增 AI
+資工名詞	主成分分析	Principal Component Analysis (PCA)	新增 AI
+資工名詞	XGBoost		新增 AI
+資工名詞	LightGBM		新增 AI
+資工名詞	神經網路	Neural Network	新增 AI
+資工名詞	多層感知器	Multilayer Perceptron (MLP)	新增 AI
+資工名詞	卷積神經網路	Convolutional Neural Network (CNN)	新增 AI
+資工名詞	循環神經網路	Recurrent Neural Network (RNN)	新增 AI
+資工名詞	長短期記憶網路	Long Short-term Memory (LSTM)	新增 AI
+資工名詞	閘控循環單元	Gated Recurrent Unit (GRU)	新增 AI
+資工名詞	圖神經網路	Graph Neural Network (GNN)	新增 AI
+資工名詞	自編碼器	Autoencoder	新增 AI
+資工名詞	變分自編碼器	Variational Autoencoder (VAE)	新增 AI
+資工名詞	生成對抗網路	Generative Adversarial Network (GAN)	新增 AI
+資工名詞	活化函數	Activation Function	新增 AI
+資工名詞	ReLU		新增 AI
+資工名詞	GELU		新增 AI
+資工名詞	Softmax		新增 AI
+資工名詞	Dropout		新增 AI
+資工名詞	批次正規化	Batch Normalization	新增 AI
+資工名詞	層正規化	Layer Normalization	新增 AI
+資工名詞	殘差連接	Residual Connection	新增 AI
+資工名詞	權重衰減	Weight Decay	新增 AI
+資工名詞	AdamW		新增 AI
+資工名詞	損失函數	Loss Function	新增 AI
+資工名詞	交叉熵損失	Cross-entropy Loss	新增 AI
+資工名詞	均方誤差	Mean Squared Error (MSE)	新增 AI
+資工名詞	對比學習	Contrastive Learning	新增 AI
+資工名詞	度量學習	Metric Learning	新增 AI
+資工名詞	知識蒸餾	Knowledge Distillation	新增 AI
+資工名詞	模型剪枝	Model Pruning	新增 AI
+資工名詞	模型量化	Model Quantization	新增 AI
+資工名詞	混合精度訓練	Mixed-precision Training	新增 AI
+資工名詞	分散式訓練	Distributed Training	新增 AI
+資工名詞	Transformer		新增 AI
+資工名詞	自注意力	Self-attention	新增 AI
+資工名詞	交叉注意力	Cross-attention	新增 AI
+資工名詞	多頭注意力	Multi-head Attention	新增 AI
+資工名詞	縮放點積注意力	Scaled Dot-product Attention	新增 AI
+資工名詞	位置編碼	Positional Encoding	新增 AI
+資工名詞	旋轉位置編碼	Rotary Position Embedding (RoPE)	新增 AI
+資工名詞	因果遮罩	Causal Mask	新增 AI
+資工名詞	編碼器	Encoder	新增 AI
+資工名詞	解碼器	Decoder	新增 AI
+資工名詞	大型語言模型	Large Language Model (LLM)	新增 AI
+資工名詞	分詞器	Tokenizer	新增 AI
+資工名詞	子詞分詞	Subword Tokenization	新增 AI
+資工名詞	位元組配對編碼	Byte Pair Encoding (BPE)	新增 AI
+資工名詞	詞嵌入	Word Embedding	新增 AI
+資工名詞	預訓練	Pretraining	新增 AI
+資工名詞	微調	Fine-tuning	新增 AI
+資工名詞	指令微調	Instruction Tuning	新增 AI
+資工名詞	監督式微調	Supervised Fine-tuning (SFT)	新增 AI
+資工名詞	參數高效微調	Parameter-efficient Fine-tuning (PEFT)	新增 AI
+資工名詞	LoRA		新增 AI
+資工名詞	QLoRA		新增 AI
+資工名詞	人類回饋強化學習	Reinforcement Learning from Human Feedback (RLHF)	新增 AI
+資工名詞	直接偏好最佳化	Direct Preference Optimization (DPO)	新增 AI
+資工名詞	檢索增強生成	Retrieval-augmented Generation (RAG)	新增 AI
+資工名詞	向量資料庫	Vector Database	新增 AI
+資工名詞	語意搜尋	Semantic Search	新增 AI
+資工名詞	重排序	Reranking	新增 AI
+資工名詞	提示工程	Prompt Engineering	新增 AI
+資工名詞	思維鏈	Chain of Thought (CoT)	新增 AI
+資工名詞	少樣本學習	Few-shot Learning	新增 AI
+資工名詞	零樣本學習	Zero-shot Learning	新增 AI
+資工名詞	上下文學習	In-context Learning (ICL)	新增 AI
+資工名詞	上下文視窗	Context Window	新增 AI
+資工名詞	KV Cache		新增 AI
+資工名詞	FlashAttention		新增 AI
+資工名詞	PagedAttention		新增 AI
+資工名詞	混合專家模型	Mixture of Experts (MoE)	新增 AI
+資工名詞	推測解碼	Speculative Decoding	新增 AI
+資工名詞	溫度取樣	Temperature Sampling	新增 AI
+資工名詞	Top-k Sampling		新增 AI
+資工名詞	Top-p Sampling		新增 AI
+資工名詞	Beam Search		新增 AI
+資工名詞	模型幻覺	Hallucination	新增 AI
+資工名詞	提示注入	Prompt Injection	新增 AI
+資工名詞	多模態模型	Multimodal Model	新增 AI
+資工名詞	視覺Transformer	Vision Transformer (ViT)	新增 AI
+資工名詞	物件偵測	Object Detection	新增 AI
+資工名詞	語意分割	Semantic Segmentation	新增 AI
+資工名詞	實例分割	Instance Segmentation	新增 AI
+資工名詞	擴散模型	Diffusion Model	新增 AI
+資工名詞	去雜訊	Denoising	新增 AI
+資工名詞	潛在空間	Latent Space	新增 AI
+資工名詞	Flow Matching		新增 AI
+資工名詞	Classifier-free Guidance (CFG)		新增 AI
+資工名詞	BERT		新增 AI
+資工名詞	GPT		新增 AI
+資工名詞	CLIP		新增 AI
+資工名詞	ResNet		新增 AI
+資工名詞	U-Net		新增 AI
+資工名詞	馬可夫決策過程	Markov Decision Process (MDP)	新增 AI
+資工名詞	貝爾曼方程式	Bellman Equation	新增 AI
+資工名詞	Q-learning		新增 AI
+資工名詞	深度Q網路	Deep Q-network (DQN)	新增 AI
+資工名詞	策略梯度	Policy Gradient	新增 AI
+資工名詞	Actor–Critic		新增 AI
+資工名詞	近端策略最佳化	Proximal Policy Optimization (PPO)	新增 AI
+資工名詞	離線強化學習	Offline Reinforcement Learning	新增 AI
+資工名詞	探索與利用	Exploration and Exploitation	新增 AI
+資工名詞	獎勵塑形	Reward Shaping	新增 AI
+資工名詞	混淆矩陣	Confusion Matrix	新增 AI
+資工名詞	精確率	Precision	新增 AI
+資工名詞	召回率	Recall	新增 AI
+資工名詞	F1分數	F1 Score	新增 AI
+資工名詞	ROC曲線	Receiver Operating Characteristic Curve (ROC Curve)	新增 AI
+資工名詞	ROC曲線下面積	Area Under the ROC Curve (AUROC)	新增 AI
+資工名詞	資料增強	Data Augmentation	新增 AI
+資工名詞	類別不平衡	Class Imbalance	新增 AI
+資工名詞	領域適應	Domain Adaptation	新增 AI
+資工名詞	模型可解釋性	Model Interpretability	新增 AI
+電機名詞	電壓	Voltage	原有題目
+電機名詞	電流	Current	原有題目
+電機名詞	電阻	Resistance	原有題目
+電機名詞	電導	Conductance	原有題目
+電機名詞	電容	Capacitance	原有題目
+電機名詞	電感	Inductance	原有題目
+電機名詞	電抗	Reactance	原有題目
+電機名詞	阻抗	Impedance	原有題目
+電機名詞	導納	Admittance	原有題目
+電機名詞	電功率	Electric Power	原有題目
+電機名詞	歐姆定律	Ohm's Law	原有題目
+電機名詞	克希荷夫電流定律	Kirchhoff's Current Law (KCL)	原有題目
+電機名詞	克希荷夫電壓定律	Kirchhoff's Voltage Law (KVL)	原有題目
+電機名詞	戴維寧定理	Thévenin's Theorem	原有題目
+電機名詞	諾頓定理	Norton's Theorem	原有題目
+電機名詞	疊加定理	Superposition Theorem	原有題目
+電機名詞	最大功率轉移定理	Maximum Power Transfer Theorem	原有題目
+電機名詞	節點分析	Nodal Analysis	原有題目
+電機名詞	網目分析	Mesh Analysis	原有題目
+電機名詞	等效電路	Equivalent Circuit	原有題目
+電機名詞	串聯電路	Series Circuit	原有題目
+電機名詞	並聯電路	Parallel Circuit	原有題目
+電機名詞	分壓器	Voltage Divider	原有題目
+電機名詞	分流器	Current Divider	原有題目
+電機名詞	惠斯登電橋	Wheatstone Bridge	原有題目
+電機名詞	電壓源	Voltage Source	原有題目
+電機名詞	電流源	Current Source	原有題目
+電機名詞	受控電源	Controlled Source	原有題目
+電機名詞	開路	Open Circuit	原有題目
+電機名詞	短路	Short Circuit	原有題目
+電機名詞	直流電	Direct Current (DC)	原有題目
+電機名詞	交流電	Alternating Current (AC)	原有題目
+電機名詞	正弦波	Sine Wave	原有題目
+電機名詞	方波	Square Wave	原有題目
+電機名詞	三角波	Triangle Wave	原有題目
+電機名詞	脈衝波	Pulse Wave	原有題目
+電機名詞	頻率	Frequency	原有題目
+電機名詞	週期	Period	原有題目
+電機名詞	相位	Phase	原有題目
+電機名詞	相量	Phasor	原有題目
+電機名詞	均方根值	Root Mean Square (RMS)	原有題目
+電機名詞	峰對峰值	Peak-to-peak Value	原有題目
+電機名詞	功率因數	Power Factor	原有題目
+電機名詞	有效功率	Active Power	原有題目
+電機名詞	無效功率	Reactive Power	原有題目
+電機名詞	視在功率	Apparent Power	原有題目
+電機名詞	複功率	Complex Power	原有題目
+電機名詞	共振	Resonance	原有題目
+電機名詞	暫態響應	Transient Response	原有題目
+電機名詞	穩態響應	Steady-state Response	原有題目
+電機名詞	電場	Electric Field	原有題目
+電機名詞	磁場	Magnetic Field	原有題目
+電機名詞	電通量	Electric Flux	原有題目
+電機名詞	磁通量	Magnetic Flux	原有題目
+電機名詞	電位	Electric Potential	原有題目
+電機名詞	位移電流	Displacement Current	原有題目
+電機名詞	介電常數	Permittivity	原有題目
+電機名詞	磁導率	Permeability	原有題目
+電機名詞	高斯定律	Gauss's Law	原有題目
+電機名詞	安培定律	Ampère's Law	原有題目
+電機名詞	法拉第電磁感應定律	Faraday's Law of Induction	原有題目
+電機名詞	冷次定律	Lenz's Law	原有題目
+電機名詞	馬克士威方程式	Maxwell's Equations	原有題目
+電機名詞	勞侖茲力	Lorentz Force	原有題目
+電機名詞	集膚效應	Skin Effect	原有題目
+電機名詞	渦電流	Eddy Current	原有題目
+電機名詞	磁滯	Hysteresis	原有題目
+電機名詞	磁飽和	Magnetic Saturation	原有題目
+電機名詞	電磁波	Electromagnetic Wave	原有題目
+電機名詞	波阻抗	Wave Impedance	原有題目
+電機名詞	傳輸線	Transmission Line	原有題目
+電機名詞	特性阻抗	Characteristic Impedance	原有題目
+電機名詞	駐波	Standing Wave	原有題目
+電機名詞	反射係數	Reflection Coefficient	原有題目
+電機名詞	阻抗匹配	Impedance Matching	原有題目
+電機名詞	史密斯圖	Smith Chart	原有題目
+電機名詞	天線	Antenna	原有題目
+電機名詞	波導	Waveguide	原有題目
+電機名詞	同軸電纜	Coaxial Cable	原有題目
+電機名詞	微帶線	Microstrip	原有題目
+電機名詞	半導體	Semiconductor	原有題目
+電機名詞	本質半導體	Intrinsic Semiconductor	原有題目
+電機名詞	摻雜	Doping	原有題目
+電機名詞	電子	Electron	原有題目
+電機名詞	電洞	Hole	原有題目
+電機名詞	費米能階	Fermi Level	原有題目
+電機名詞	能隙	Band Gap	原有題目
+電機名詞	空乏區	Depletion Region	原有題目
+電機名詞	接面電位	Junction Potential	原有題目
+電機名詞	載子遷移率	Carrier Mobility	原有題目
+電機名詞	二極體	Diode	原有題目
+電機名詞	齊納二極體	Zener Diode	原有題目
+電機名詞	發光二極體	Light-emitting Diode (LED)	原有題目
+電機名詞	光二極體	Photodiode	原有題目
+電機名詞	蕭特基二極體	Schottky Diode	原有題目
+電機名詞	雙極性接面電晶體	Bipolar Junction Transistor (BJT)	原有題目
+電機名詞	金氧半場效應電晶體	Metal–Oxide–Semiconductor Field-effect Transistor (MOSFET)	原有題目
+電機名詞	接面場效應電晶體	Junction Field-effect Transistor (JFET)	原有題目
+電機名詞	絕緣閘極雙極性電晶體	Insulated-gate Bipolar Transistor (IGBT)	原有題目
+電機名詞	矽控整流器	Silicon-controlled Rectifier (SCR)	原有題目
+電機名詞	截止區	Cutoff Region	原有題目
+電機名詞	主動區	Active Region	原有題目
+電機名詞	飽和區	Saturation Region	原有題目
+電機名詞	臨界電壓	Threshold Voltage	原有題目
+電機名詞	通道長度調變	Channel-length Modulation	原有題目
+電機名詞	體效應	Body Effect	原有題目
+電機名詞	次臨界擺幅	Subthreshold Swing	原有題目
+電機名詞	米勒效應	Miller Effect	原有題目
+電機名詞	厄利效應	Early Effect	原有題目
+電機名詞	小訊號模型	Small-signal Model	原有題目
+電機名詞	運算放大器	Operational Amplifier (Op-amp)	原有題目
+電機名詞	反相放大器	Inverting Amplifier	原有題目
+電機名詞	非反相放大器	Non-inverting Amplifier	原有題目
+電機名詞	差動放大器	Differential Amplifier	原有題目
+電機名詞	儀表放大器	Instrumentation Amplifier	原有題目
+電機名詞	電壓隨耦器	Voltage Follower	原有題目
+電機名詞	比較器	Comparator	原有題目
+電機名詞	積分器	Integrator	原有題目
+電機名詞	微分器	Differentiator	原有題目
+電機名詞	施密特觸發器	Schmitt Trigger	原有題目
+電機名詞	共模拒斥比	Common-mode Rejection Ratio (CMRR)	原有題目
+電機名詞	開迴路增益	Open-loop Gain	原有題目
+電機名詞	閉迴路增益	Closed-loop Gain	原有題目
+電機名詞	增益頻寬積	Gain–Bandwidth Product (GBW)	原有題目
+電機名詞	迴轉率	Slew Rate	原有題目
+電機名詞	輸入偏移電壓	Input Offset Voltage	原有題目
+電機名詞	負回授	Negative Feedback	原有題目
+電機名詞	正回授	Positive Feedback	原有題目
+電機名詞	振盪器	Oscillator	原有題目
+電機名詞	鎖相迴路	Phase-locked Loop (PLL)	原有題目
+電機名詞	低通濾波器	Low-pass Filter (LPF)	原有題目
+電機名詞	高通濾波器	High-pass Filter (HPF)	原有題目
+電機名詞	帶通濾波器	Band-pass Filter (BPF)	原有題目
+電機名詞	帶拒濾波器	Band-stop Filter	原有題目
+電機名詞	傅立葉轉換	Fourier Transform	原有題目
+電機名詞	拉普拉斯轉換	Laplace Transform	原有題目
+電機名詞	Z轉換	Z-transform	原有題目
+電機名詞	摺積	Convolution	原有題目
+電機名詞	取樣定理	Sampling Theorem	原有題目
+電機名詞	混疊	Aliasing	原有題目
+電機名詞	脈衝響應	Impulse Response	原有題目
+電機名詞	頻率響應	Frequency Response	原有題目
+電機名詞	波德圖	Bode Plot	原有題目
+電機名詞	奈奎斯特圖	Nyquist Plot	原有題目
+電機名詞	根軌跡	Root Locus	原有題目
+電機名詞	轉移函數	Transfer Function	原有題目
+電機名詞	狀態空間模型	State-space Model	原有題目
+電機名詞	可控制性	Controllability	原有題目
+電機名詞	可觀測性	Observability	原有題目
+電機名詞	比例積分微分控制器	Proportional–Integral–Derivative Controller (PID)	原有題目
+電機名詞	變壓器	Transformer	原有題目
+電機名詞	感應馬達	Induction Motor	原有題目
+電機名詞	同步馬達	Synchronous Motor	原有題目
+電機名詞	直流馬達	DC Motor	原有題目
+電機名詞	步進馬達	Stepper Motor	原有題目
+電機名詞	伺服馬達	Servo Motor	原有題目
+電機名詞	無刷直流馬達	Brushless DC Motor (BLDC)	原有題目
+電機名詞	三相電	Three-phase Power	原有題目
+電機名詞	星形接法	Wye Connection	原有題目
+電機名詞	三角形接法	Delta Connection	原有題目
+電機名詞	整流器	Rectifier	原有題目
+電機名詞	直流轉交流變流器	DC-to-AC Inverter	原有題目
+電機名詞	直流截波器	DC Chopper	原有題目
+電機名詞	降壓轉換器	Buck Converter	原有題目
+電機名詞	升壓轉換器	Boost Converter	原有題目
+電機名詞	脈波寬度調變	Pulse-width Modulation (PWM)	原有題目
+電機名詞	切換式電源	Switched-mode Power Supply (SMPS)	原有題目
+電機名詞	突波保護器	Surge Protector	原有題目
+電機名詞	接地	Grounding	原有題目
+電機名詞	斷路器	Circuit Breaker	原有題目
+電機名詞	可程式邏輯控制器	Programmable Logic Controller (PLC)	原有題目
+電機名詞	現場可程式化邏輯閘陣列	Field-programmable Gate Array (FPGA)	原有題目
+電機名詞	類比數位轉換器	Analog-to-digital Converter (ADC)	原有題目
+電機名詞	數位類比轉換器	Digital-to-analog Converter (DAC)	原有題目
+電機名詞	正反器	Flip-flop	原有題目
+電機名詞	邏輯閘	Logic Gate	原有題目
+電機名詞	全加器	Full Adder	原有題目
+電機名詞	多工器	Multiplexer (MUX)	原有題目
+電機名詞	暫存器	Register	原有題目
+電機名詞	靜態隨機存取記憶體	Static Random-access Memory (SRAM)	原有題目

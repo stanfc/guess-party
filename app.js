@@ -1,7 +1,7 @@
 import { decks } from './decks.js';
 import { connectInstallButton } from './pwa.js';
 import { categories, filterDecks, allDeck } from './catalog.js';
-import { shuffle, screenTilt, TiltGate, parseDuration } from './game.js';
+import { shuffle, screenTilt, TiltGate, parseDuration, questionParts } from './game.js';
 const app = document.querySelector('#app');
 let durationMode = 'preset', customDuration = '150';
 let searchQuery = '', activeCategory = '全部題庫';
@@ -112,9 +112,14 @@ function begin() {
   window.addEventListener('deviceorientation', orientation);
   renderPlay(); ticker = setInterval(tick,100);
 }
+function renderQuestion(question) {
+  const { primary, english } = questionParts(question);
+  const size = [...primary].length > 12 ? 'word-long' : [...primary].length > 7 ? 'word-medium' : '';
+  return `<div class="word ${size}${english ? ' word-bilingual' : ''}"><span class="word-primary">${primary}</span>${english ? `<span class="word-translation" lang="en">${english}</span>` : ''}</div>`;
+}
 function renderPlay(feedback) {
   const seconds = Math.max(0, Math.ceil((deadline-performance.now())/1000));
-  app.innerHTML = `<main class="play ${feedback||''}"><div class="progress"><div style="width:${seconds/duration*100}%"></div></div><div class="play-top"><span>${selected.name} · ✓ ${answers.filter(a=>a.status==='correct').length}</span><span class="timer ${seconds<=10?'urgent':''}" role="timer">${seconds}<small> 秒</small></span><button class="end" id="end">結束回合</button></div><div>${feedback?`<div class="feedback" role="status">${feedback==='correct'?'✓ 猜對了！':'↗ 跳過'}</div>`:`<div class="word ${[...queue[index]].length > 12 ? 'word-long' : [...queue[index]].length > 7 ? 'word-medium' : ''}">${queue[index]}</div>`}<p class="rotate-hint">↔ 請把手機橫過來，讓朋友更容易看見</p></div><div class="play-bottom"><button id="skip" ${busy?'disabled':''}>↑ 跳過</button><span>${feedback?'把手機立回來，繼續下一題':motionEnabled?'向上跳過 · 向下猜對':'點擊按鈕，或使用方向鍵'}</span><button id="correct" ${busy?'disabled':''}>猜對 ↓</button></div></main>`;
+  app.innerHTML = `<main class="play ${feedback||''}"><div class="progress"><div style="width:${seconds/duration*100}%"></div></div><div class="play-top"><span>${selected.name} · ✓ ${answers.filter(a=>a.status==='correct').length}</span><span class="timer ${seconds<=10?'urgent':''}" role="timer">${seconds}<small> 秒</small></span><button class="end" id="end">結束回合</button></div><div>${feedback?`<div class="feedback" role="status">${feedback==='correct'?'✓ 猜對了！':'↗ 跳過'}</div>`:renderQuestion(queue[index])}<p class="rotate-hint">↔ 請把手機橫過來，讓朋友更容易看見</p></div><div class="play-bottom"><button id="skip" ${busy?'disabled':''}>↑ 跳過</button><span>${feedback?'把手機立回來，繼續下一題':motionEnabled?'向上跳過 · 向下猜對':'點擊按鈕，或使用方向鍵'}</span><button id="correct" ${busy?'disabled':''}>猜對 ↓</button></div></main>`;
   bind('#correct',()=>answer('correct'));bind('#skip',()=>answer('skip'));bind('#end',confirmEnd);
 }
 function tick() {

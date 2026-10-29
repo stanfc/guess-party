@@ -1,5 +1,10 @@
 // 題目以人工編選；同題庫不放入別名湊數，每個題庫至少 150 題。
 const words = text => text.split(/[\s,，]+/u).filter(Boolean);
+// 資工與電機每行一題，保留英文中的空格；中英名稱是同一道題。
+const technicalWords = text => text.trim().split(/\n+/u).map(line => {
+  const [chinese, english] = line.trim().split('|');
+  return english ? `${chinese}（${english}）` : chinese;
+});
 export const decks = [
   {
     id: 'geography', icon: '◎', name: '世界地圖', category: '知識探險',
@@ -459,50 +464,524 @@ export const decks = [
   },
   {
     id: 'computer-science', icon: '⌨', name: '資工名詞', category: '高手挑戰',
-    description: '資料結構、演算法、作業系統到編譯器', color: '#92bacb',
-    words: words(`
-時間複雜度 空間複雜度 漸近上界 攤銷分析 遞迴關係式 主定理 分治法 動態規劃 貪婪演算法 回溯法
-分支限界法 暴力搜尋 啟發式搜尋 深度優先搜尋 廣度優先搜尋 雙向搜尋 二元搜尋 線性搜尋 拓樸排序 最短路徑
-最小成本擴張樹 最大流 最小割 二分圖 最大配對 強連通元件 關節點 歐拉路徑 漢米爾頓路徑 旅行推銷員問題
-背包問題 最長共同子序列 最長遞增子序列 編輯距離 八皇后問題 河內塔 停機問題 哥德爾不完備定理 圖靈機 有限狀態機
-正規語言 正規表示式 上下文無關文法 下推自動機 確定性自動機 非確定性自動機 計算可判定性 多項式時間 歸約 非確定性多項式時間
-堆疊 佇列 雙向佇列 優先佇列 單向鏈結串列 雙向鏈結串列 循環鏈結串列 動態陣列 稀疏矩陣 位元陣列
-雜湊碰撞 開放定址法 鏈結法 完美雜湊 布隆過濾器 不相交集合 路徑壓縮 線段樹 二元索引樹 字典樹
-二元搜尋樹 平衡二元樹 紅黑樹 B樹 B加樹 最小堆積 最大堆積 跳躍串列 後綴陣列 後綴樹
-氣泡排序 選擇排序 插入排序 合併排序 快速排序 堆積排序 計數排序 基數排序 桶排序 外部排序
-行程 執行緒 行程排程 內容切換 系統呼叫 中斷 號誌 互斥鎖 競爭條件 死結
-臨界區域 讀者寫者問題 生產者消費者問題 哲學家用餐問題 優先權反轉 飢餓現象 活鎖 不可分割操作 記憶體障壁 條件變數
-虛擬記憶體 分頁 分段 頁面置換 缺頁中斷 位址轉譯 轉譯後備緩衝器 快取一致性 記憶體洩漏 緩衝區溢位
-堆積記憶體 堆疊記憶體 記憶體回收 參考計數 懸空指標 未初始化指標 記憶體對齊 位元組序 大端序 小端序
-詞彙分析 語法分析 語意分析 抽象語法樹 中介表示法 常數折疊 死碼消除 暫存器配置 即時編譯 交叉編譯
-型別推導 多型 封裝 繼承 抽象類別 介面 多載 覆寫 閉包 延遲求值
-資料庫正規化 函數相依 候選鍵 主鍵 外鍵 索引 交易 隔離等級 髒讀 幻讀
-預先寫入記錄 多版本並行控制 兩階段認可 分散式共識 最終一致性 線性一致性 複寫 資料分割 容錯 拜占庭將軍問題
-三向交握 滑動視窗 壅塞控制 封包交換 距離向量路由 鏈結狀態路由 公開金鑰密碼學 雜湊函數 緩衝區不足 跨網站指令碼攻擊
+    description: '中英並列，從演算法與系統到機器學習、LLM 與強化學習', color: '#92bacb',
+    words: technicalWords(`
+時間複雜度|Time Complexity
+空間複雜度|Space Complexity
+漸近上界|Asymptotic Upper Bound
+攤銷分析|Amortized Analysis
+遞迴關係式|Recurrence Relation
+主定理|Master Theorem
+分治法|Divide and Conquer
+動態規劃|Dynamic Programming (DP)
+貪婪演算法|Greedy Algorithm
+回溯法|Backtracking
+分支限界法|Branch and Bound
+暴力搜尋|Brute-force Search
+啟發式搜尋|Heuristic Search
+深度優先搜尋|Depth-first Search (DFS)
+廣度優先搜尋|Breadth-first Search (BFS)
+雙向搜尋|Bidirectional Search
+二元搜尋|Binary Search
+線性搜尋|Linear Search
+拓樸排序|Topological Sort
+最短路徑|Shortest Path
+最小成本擴張樹|Minimum Spanning Tree (MST)
+最大流|Maximum Flow
+最小割|Minimum Cut
+二分圖|Bipartite Graph
+最大配對|Maximum Matching
+強連通元件|Strongly Connected Component (SCC)
+關節點|Articulation Point
+歐拉路徑|Eulerian Path
+漢米爾頓路徑|Hamiltonian Path
+旅行推銷員問題|Traveling Salesperson Problem (TSP)
+背包問題|Knapsack Problem
+最長共同子序列|Longest Common Subsequence (LCS)
+最長遞增子序列|Longest Increasing Subsequence (LIS)
+編輯距離|Edit Distance
+八皇后問題|Eight Queens Puzzle
+河內塔|Tower of Hanoi
+停機問題|Halting Problem
+哥德爾不完備定理|Gödel's Incompleteness Theorem
+圖靈機|Turing Machine
+有限狀態機|Finite-state Machine (FSM)
+正規語言|Regular Language
+正規表示式|Regular Expression (Regex)
+上下文無關文法|Context-free Grammar (CFG)
+下推自動機|Pushdown Automaton (PDA)
+確定性自動機|Deterministic Automaton
+非確定性自動機|Nondeterministic Automaton
+計算可判定性|Decidability
+多項式時間|Polynomial Time
+歸約|Reduction
+非確定性多項式時間|Nondeterministic Polynomial Time (NP)
+堆疊|Stack
+佇列|Queue
+雙向佇列|Deque
+優先佇列|Priority Queue
+單向鏈結串列|Singly Linked List
+雙向鏈結串列|Doubly Linked List
+循環鏈結串列|Circular Linked List
+動態陣列|Dynamic Array
+稀疏矩陣|Sparse Matrix
+位元陣列|Bit Array
+雜湊碰撞|Hash Collision
+開放定址法|Open Addressing
+鏈結法|Separate Chaining
+完美雜湊|Perfect Hashing
+布隆過濾器|Bloom Filter
+不相交集合|Disjoint-set Union (DSU)
+路徑壓縮|Path Compression
+線段樹|Segment Tree
+二元索引樹|Binary Indexed Tree (Fenwick Tree)
+字典樹|Trie
+二元搜尋樹|Binary Search Tree (BST)
+平衡二元樹|Balanced Binary Tree
+紅黑樹|Red-black Tree
+B樹|B-tree
+B加樹|B+ Tree
+最小堆積|Min-heap
+最大堆積|Max-heap
+跳躍串列|Skip List
+後綴陣列|Suffix Array
+後綴樹|Suffix Tree
+氣泡排序|Bubble Sort
+選擇排序|Selection Sort
+插入排序|Insertion Sort
+合併排序|Merge Sort
+快速排序|Quicksort
+堆積排序|Heapsort
+計數排序|Counting Sort
+基數排序|Radix Sort
+桶排序|Bucket Sort
+外部排序|External Sorting
+行程|Process
+執行緒|Thread
+行程排程|Process Scheduling
+內容切換|Context Switch
+系統呼叫|System Call
+中斷|Interrupt
+號誌|Semaphore
+互斥鎖|Mutex
+競爭條件|Race Condition
+死結|Deadlock
+臨界區域|Critical Section
+讀者寫者問題|Readers–Writers Problem
+生產者消費者問題|Producer–Consumer Problem
+哲學家用餐問題|Dining Philosophers Problem
+優先權反轉|Priority Inversion
+飢餓現象|Starvation
+活鎖|Livelock
+不可分割操作|Atomic Operation
+記憶體障壁|Memory Barrier
+條件變數|Condition Variable
+虛擬記憶體|Virtual Memory
+分頁|Paging
+分段|Segmentation
+頁面置換|Page Replacement
+缺頁中斷|Page Fault
+位址轉譯|Address Translation
+轉譯後備緩衝器|Translation Lookaside Buffer (TLB)
+快取一致性|Cache Coherence
+記憶體洩漏|Memory Leak
+緩衝區溢位|Buffer Overflow
+堆積記憶體|Heap Memory
+堆疊記憶體|Stack Memory
+記憶體回收|Garbage Collection (GC)
+參考計數|Reference Counting
+懸空指標|Dangling Pointer
+未初始化指標|Uninitialized Pointer
+記憶體對齊|Memory Alignment
+位元組序|Byte Order
+大端序|Big-endian
+小端序|Little-endian
+詞彙分析|Lexical Analysis
+語法分析|Syntax Analysis (Parsing)
+語意分析|Semantic Analysis
+抽象語法樹|Abstract Syntax Tree (AST)
+中介表示法|Intermediate Representation (IR)
+常數折疊|Constant Folding
+死碼消除|Dead Code Elimination
+暫存器配置|Register Allocation
+即時編譯|Just-in-time Compilation (JIT)
+交叉編譯|Cross-compilation
+型別推導|Type Inference
+多型|Polymorphism
+封裝|Encapsulation
+繼承|Inheritance
+抽象類別|Abstract Class
+介面|Interface
+多載|Overloading
+覆寫|Overriding
+閉包|Closure
+延遲求值|Lazy Evaluation
+資料庫正規化|Database Normalization
+函數相依|Functional Dependency
+候選鍵|Candidate Key
+主鍵|Primary Key
+外鍵|Foreign Key
+索引|Index
+交易|Transaction
+隔離等級|Isolation Level
+髒讀|Dirty Read
+幻讀|Phantom Read
+預先寫入記錄|Write-ahead Logging (WAL)
+多版本並行控制|Multiversion Concurrency Control (MVCC)
+兩階段認可|Two-phase Commit (2PC)
+分散式共識|Distributed Consensus
+最終一致性|Eventual Consistency
+線性一致性|Linearizability
+複寫|Replication
+資料分割|Data Partitioning
+容錯|Fault Tolerance
+拜占庭將軍問題|Byzantine Generals Problem
+三向交握|Three-way Handshake
+滑動視窗|Sliding Window
+壅塞控制|Congestion Control
+封包交換|Packet Switching
+距離向量路由|Distance-vector Routing
+鏈結狀態路由|Link-state Routing
+公開金鑰密碼學|Public-key Cryptography
+雜湊函數|Hash Function
+緩衝區不足|Insufficient Buffer Space
+跨網站指令碼攻擊|Cross-site Scripting (XSS)
+機器學習|Machine Learning (ML)
+深度學習|Deep Learning (DL)
+監督式學習|Supervised Learning
+非監督式學習|Unsupervised Learning
+半監督式學習|Semi-supervised Learning
+自監督式學習|Self-supervised Learning
+強化學習|Reinforcement Learning (RL)
+遷移學習|Transfer Learning
+多任務學習|Multi-task Learning
+主動學習|Active Learning
+訓練集|Training Set
+驗證集|Validation Set
+測試集|Test Set
+交叉驗證|Cross-validation
+資料洩漏|Data Leakage
+過度配適|Overfitting
+配適不足|Underfitting
+偏差與變異|Bias and Variance
+正規化|Regularization
+提前停止訓練|Early Stopping
+梯度下降|Gradient Descent
+隨機梯度下降|Stochastic Gradient Descent (SGD)
+小批次梯度下降|Mini-batch Gradient Descent
+反向傳播|Backpropagation
+自動微分|Automatic Differentiation (Autodiff)
+學習率|Learning Rate
+學習率排程|Learning Rate Schedule
+梯度裁切|Gradient Clipping
+梯度消失|Vanishing Gradient
+梯度爆炸|Exploding Gradient
+線性迴歸|Linear Regression
+邏輯斯迴歸|Logistic Regression
+決策樹|Decision Tree
+隨機森林|Random Forest
+支援向量機|Support Vector Machine (SVM)
+k近鄰法|k-Nearest Neighbors (k-NN)
+k平均分群|k-Means Clustering
+主成分分析|Principal Component Analysis (PCA)
+XGBoost
+LightGBM
+神經網路|Neural Network
+多層感知器|Multilayer Perceptron (MLP)
+卷積神經網路|Convolutional Neural Network (CNN)
+循環神經網路|Recurrent Neural Network (RNN)
+長短期記憶網路|Long Short-term Memory (LSTM)
+閘控循環單元|Gated Recurrent Unit (GRU)
+圖神經網路|Graph Neural Network (GNN)
+自編碼器|Autoencoder
+變分自編碼器|Variational Autoencoder (VAE)
+生成對抗網路|Generative Adversarial Network (GAN)
+活化函數|Activation Function
+ReLU
+GELU
+Softmax
+Dropout
+批次正規化|Batch Normalization
+層正規化|Layer Normalization
+殘差連接|Residual Connection
+權重衰減|Weight Decay
+AdamW
+損失函數|Loss Function
+交叉熵損失|Cross-entropy Loss
+均方誤差|Mean Squared Error (MSE)
+對比學習|Contrastive Learning
+度量學習|Metric Learning
+知識蒸餾|Knowledge Distillation
+模型剪枝|Model Pruning
+模型量化|Model Quantization
+混合精度訓練|Mixed-precision Training
+分散式訓練|Distributed Training
+Transformer
+自注意力|Self-attention
+交叉注意力|Cross-attention
+多頭注意力|Multi-head Attention
+縮放點積注意力|Scaled Dot-product Attention
+位置編碼|Positional Encoding
+旋轉位置編碼|Rotary Position Embedding (RoPE)
+因果遮罩|Causal Mask
+編碼器|Encoder
+解碼器|Decoder
+大型語言模型|Large Language Model (LLM)
+分詞器|Tokenizer
+子詞分詞|Subword Tokenization
+位元組配對編碼|Byte Pair Encoding (BPE)
+詞嵌入|Word Embedding
+預訓練|Pretraining
+微調|Fine-tuning
+指令微調|Instruction Tuning
+監督式微調|Supervised Fine-tuning (SFT)
+參數高效微調|Parameter-efficient Fine-tuning (PEFT)
+LoRA
+QLoRA
+人類回饋強化學習|Reinforcement Learning from Human Feedback (RLHF)
+直接偏好最佳化|Direct Preference Optimization (DPO)
+檢索增強生成|Retrieval-augmented Generation (RAG)
+向量資料庫|Vector Database
+語意搜尋|Semantic Search
+重排序|Reranking
+提示工程|Prompt Engineering
+思維鏈|Chain of Thought (CoT)
+少樣本學習|Few-shot Learning
+零樣本學習|Zero-shot Learning
+上下文學習|In-context Learning (ICL)
+上下文視窗|Context Window
+KV Cache
+FlashAttention
+PagedAttention
+混合專家模型|Mixture of Experts (MoE)
+推測解碼|Speculative Decoding
+溫度取樣|Temperature Sampling
+Top-k Sampling
+Top-p Sampling
+Beam Search
+模型幻覺|Hallucination
+提示注入|Prompt Injection
+多模態模型|Multimodal Model
+視覺Transformer|Vision Transformer (ViT)
+物件偵測|Object Detection
+語意分割|Semantic Segmentation
+實例分割|Instance Segmentation
+擴散模型|Diffusion Model
+去雜訊|Denoising
+潛在空間|Latent Space
+Flow Matching
+Classifier-free Guidance (CFG)
+BERT
+GPT
+CLIP
+ResNet
+U-Net
+馬可夫決策過程|Markov Decision Process (MDP)
+貝爾曼方程式|Bellman Equation
+Q-learning
+深度Q網路|Deep Q-network (DQN)
+策略梯度|Policy Gradient
+Actor–Critic
+近端策略最佳化|Proximal Policy Optimization (PPO)
+離線強化學習|Offline Reinforcement Learning
+探索與利用|Exploration and Exploitation
+獎勵塑形|Reward Shaping
+混淆矩陣|Confusion Matrix
+精確率|Precision
+召回率|Recall
+F1分數|F1 Score
+ROC曲線|Receiver Operating Characteristic Curve (ROC Curve)
+ROC曲線下面積|Area Under the ROC Curve (AUROC)
+資料增強|Data Augmentation
+類別不平衡|Class Imbalance
+領域適應|Domain Adaptation
+模型可解釋性|Model Interpretability
     `),
   },
   {
     id: 'electrical-engineering', icon: '⚡', name: '電機名詞', category: '高手挑戰',
-    description: '電路、半導體、電力系統與控制理論', color: '#edc360',
-    words: words(`
-電壓 電流 電阻 電導 電容 電感 電抗 阻抗 導納 電功率
-歐姆定律 克希荷夫電流定律 克希荷夫電壓定律 戴維寧定理 諾頓定理 疊加定理 最大功率轉移定理 節點分析 網目分析 等效電路
-串聯電路 並聯電路 分壓器 分流器 惠斯登電橋 電壓源 電流源 受控電源 開路 短路
-直流電 交流電 正弦波 方波 三角波 脈衝波 頻率 週期 相位 相量
-均方根值 峰對峰值 功率因數 有效功率 無效功率 視在功率 複功率 共振 暫態響應 穩態響應
-電場 磁場 電通量 磁通量 電位 位移電流 介電常數 磁導率 高斯定律 安培定律
-法拉第電磁感應定律 冷次定律 馬克士威方程式 勞侖茲力 集膚效應 渦電流 磁滯 磁飽和 電磁波 波阻抗
-傳輸線 特性阻抗 駐波 反射係數 阻抗匹配 史密斯圖 天線 波導 同軸電纜 微帶線
-半導體 本質半導體 摻雜 電子 電洞 費米能階 能隙 空乏區 接面電位 載子遷移率
-二極體 齊納二極體 發光二極體 光二極體 蕭特基二極體 雙極性接面電晶體 金氧半場效應電晶體 接面場效應電晶體 絕緣閘極雙極性電晶體 矽控整流器
-截止區 主動區 飽和區 臨界電壓 通道長度調變 體效應 次臨界擺幅 米勒效應 厄利效應 小訊號模型
-運算放大器 反相放大器 非反相放大器 差動放大器 儀表放大器 電壓隨耦器 比較器 積分器 微分器 施密特觸發器
-共模拒斥比 開迴路增益 閉迴路增益 增益頻寬積 迴轉率 輸入偏移電壓 負回授 正回授 振盪器 鎖相迴路
-低通濾波器 高通濾波器 帶通濾波器 帶拒濾波器 傅立葉轉換 拉普拉斯轉換 Z轉換 摺積 取樣定理 混疊
-脈衝響應 頻率響應 波德圖 奈奎斯特圖 根軌跡 轉移函數 狀態空間模型 可控制性 可觀測性 比例積分微分控制器
-變壓器 感應馬達 同步馬達 直流馬達 步進馬達 伺服馬達 無刷直流馬達 三相電 星形接法 三角形接法
-整流器 直流轉交流變流器 直流截波器 降壓轉換器 升壓轉換器 脈波寬度調變 切換式電源 突波保護器 接地 斷路器
-可程式邏輯控制器 現場可程式化邏輯閘陣列 類比數位轉換器 數位類比轉換器 正反器 邏輯閘 全加器 多工器 暫存器 靜態隨機存取記憶體
+    description: '中英並列，挑戰電路、半導體、電力系統與控制理論', color: '#edc360',
+    words: technicalWords(`
+電壓|Voltage
+電流|Current
+電阻|Resistance
+電導|Conductance
+電容|Capacitance
+電感|Inductance
+電抗|Reactance
+阻抗|Impedance
+導納|Admittance
+電功率|Electric Power
+歐姆定律|Ohm's Law
+克希荷夫電流定律|Kirchhoff's Current Law (KCL)
+克希荷夫電壓定律|Kirchhoff's Voltage Law (KVL)
+戴維寧定理|Thévenin's Theorem
+諾頓定理|Norton's Theorem
+疊加定理|Superposition Theorem
+最大功率轉移定理|Maximum Power Transfer Theorem
+節點分析|Nodal Analysis
+網目分析|Mesh Analysis
+等效電路|Equivalent Circuit
+串聯電路|Series Circuit
+並聯電路|Parallel Circuit
+分壓器|Voltage Divider
+分流器|Current Divider
+惠斯登電橋|Wheatstone Bridge
+電壓源|Voltage Source
+電流源|Current Source
+受控電源|Controlled Source
+開路|Open Circuit
+短路|Short Circuit
+直流電|Direct Current (DC)
+交流電|Alternating Current (AC)
+正弦波|Sine Wave
+方波|Square Wave
+三角波|Triangle Wave
+脈衝波|Pulse Wave
+頻率|Frequency
+週期|Period
+相位|Phase
+相量|Phasor
+均方根值|Root Mean Square (RMS)
+峰對峰值|Peak-to-peak Value
+功率因數|Power Factor
+有效功率|Active Power
+無效功率|Reactive Power
+視在功率|Apparent Power
+複功率|Complex Power
+共振|Resonance
+暫態響應|Transient Response
+穩態響應|Steady-state Response
+電場|Electric Field
+磁場|Magnetic Field
+電通量|Electric Flux
+磁通量|Magnetic Flux
+電位|Electric Potential
+位移電流|Displacement Current
+介電常數|Permittivity
+磁導率|Permeability
+高斯定律|Gauss's Law
+安培定律|Ampère's Law
+法拉第電磁感應定律|Faraday's Law of Induction
+冷次定律|Lenz's Law
+馬克士威方程式|Maxwell's Equations
+勞侖茲力|Lorentz Force
+集膚效應|Skin Effect
+渦電流|Eddy Current
+磁滯|Hysteresis
+磁飽和|Magnetic Saturation
+電磁波|Electromagnetic Wave
+波阻抗|Wave Impedance
+傳輸線|Transmission Line
+特性阻抗|Characteristic Impedance
+駐波|Standing Wave
+反射係數|Reflection Coefficient
+阻抗匹配|Impedance Matching
+史密斯圖|Smith Chart
+天線|Antenna
+波導|Waveguide
+同軸電纜|Coaxial Cable
+微帶線|Microstrip
+半導體|Semiconductor
+本質半導體|Intrinsic Semiconductor
+摻雜|Doping
+電子|Electron
+電洞|Hole
+費米能階|Fermi Level
+能隙|Band Gap
+空乏區|Depletion Region
+接面電位|Junction Potential
+載子遷移率|Carrier Mobility
+二極體|Diode
+齊納二極體|Zener Diode
+發光二極體|Light-emitting Diode (LED)
+光二極體|Photodiode
+蕭特基二極體|Schottky Diode
+雙極性接面電晶體|Bipolar Junction Transistor (BJT)
+金氧半場效應電晶體|Metal–Oxide–Semiconductor Field-effect Transistor (MOSFET)
+接面場效應電晶體|Junction Field-effect Transistor (JFET)
+絕緣閘極雙極性電晶體|Insulated-gate Bipolar Transistor (IGBT)
+矽控整流器|Silicon-controlled Rectifier (SCR)
+截止區|Cutoff Region
+主動區|Active Region
+飽和區|Saturation Region
+臨界電壓|Threshold Voltage
+通道長度調變|Channel-length Modulation
+體效應|Body Effect
+次臨界擺幅|Subthreshold Swing
+米勒效應|Miller Effect
+厄利效應|Early Effect
+小訊號模型|Small-signal Model
+運算放大器|Operational Amplifier (Op-amp)
+反相放大器|Inverting Amplifier
+非反相放大器|Non-inverting Amplifier
+差動放大器|Differential Amplifier
+儀表放大器|Instrumentation Amplifier
+電壓隨耦器|Voltage Follower
+比較器|Comparator
+積分器|Integrator
+微分器|Differentiator
+施密特觸發器|Schmitt Trigger
+共模拒斥比|Common-mode Rejection Ratio (CMRR)
+開迴路增益|Open-loop Gain
+閉迴路增益|Closed-loop Gain
+增益頻寬積|Gain–Bandwidth Product (GBW)
+迴轉率|Slew Rate
+輸入偏移電壓|Input Offset Voltage
+負回授|Negative Feedback
+正回授|Positive Feedback
+振盪器|Oscillator
+鎖相迴路|Phase-locked Loop (PLL)
+低通濾波器|Low-pass Filter (LPF)
+高通濾波器|High-pass Filter (HPF)
+帶通濾波器|Band-pass Filter (BPF)
+帶拒濾波器|Band-stop Filter
+傅立葉轉換|Fourier Transform
+拉普拉斯轉換|Laplace Transform
+Z轉換|Z-transform
+摺積|Convolution
+取樣定理|Sampling Theorem
+混疊|Aliasing
+脈衝響應|Impulse Response
+頻率響應|Frequency Response
+波德圖|Bode Plot
+奈奎斯特圖|Nyquist Plot
+根軌跡|Root Locus
+轉移函數|Transfer Function
+狀態空間模型|State-space Model
+可控制性|Controllability
+可觀測性|Observability
+比例積分微分控制器|Proportional–Integral–Derivative Controller (PID)
+變壓器|Transformer
+感應馬達|Induction Motor
+同步馬達|Synchronous Motor
+直流馬達|DC Motor
+步進馬達|Stepper Motor
+伺服馬達|Servo Motor
+無刷直流馬達|Brushless DC Motor (BLDC)
+三相電|Three-phase Power
+星形接法|Wye Connection
+三角形接法|Delta Connection
+整流器|Rectifier
+直流轉交流變流器|DC-to-AC Inverter
+直流截波器|DC Chopper
+降壓轉換器|Buck Converter
+升壓轉換器|Boost Converter
+脈波寬度調變|Pulse-width Modulation (PWM)
+切換式電源|Switched-mode Power Supply (SMPS)
+突波保護器|Surge Protector
+接地|Grounding
+斷路器|Circuit Breaker
+可程式邏輯控制器|Programmable Logic Controller (PLC)
+現場可程式化邏輯閘陣列|Field-programmable Gate Array (FPGA)
+類比數位轉換器|Analog-to-digital Converter (ADC)
+數位類比轉換器|Digital-to-analog Converter (DAC)
+正反器|Flip-flop
+邏輯閘|Logic Gate
+全加器|Full Adder
+多工器|Multiplexer (MUX)
+暫存器|Register
+靜態隨機存取記憶體|Static Random-access Memory (SRAM)
     `),
   },
   {

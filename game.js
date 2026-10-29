@@ -1,3 +1,8 @@
+// 中英題目仍是一個字串，作答與成績可保留完整名稱。
+export function questionParts(question) {
+  const match = /^(.+?)（([^（）]+)）$/u.exec(question);
+  return match ? { primary: match[1], english: match[2] } : { primary: question, english: null };
+}
 export function shuffle(words, random = Math.random) {
   const result = [...new Set(words)];
   for (let i = result.length - 1; i > 0; i--) {
